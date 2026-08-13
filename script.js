@@ -27,9 +27,9 @@ function render(){
   grid.innerHTML = items.map(item => `
     <article class="item-card">
       <div class="item-image-wrap">
-        <img class="item-image" src="${item.image}" alt="${item.title}" loading="lazy">
+        <img class="item-image" src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/inventory/mount-plate.jpg'">
         <span class="status-badge">${item.status}</span>
-        <span class="lot-badge">Lot ${item.lot}</span>
+        <span class="lot-badge">Lot ${item.lot}</span>${item.representativeImage ? '<span class="photo-badge">Representative Photo</span>' : ''}
       </div>
       <div class="item-body">
         <div class="item-category">${item.category}</div>
@@ -64,6 +64,7 @@ const modal=document.getElementById('itemModal');
 function openItem(id){
   const item=INVENTORY.find(x=>x.id===id); if(!item)return;
   document.getElementById('modalImage').src=item.image;
+  document.getElementById('modalImage').onerror=()=>{document.getElementById('modalImage').src='assets/images/inventory/mount-plate.jpg';};
   document.getElementById('modalImage').alt=item.title;
   document.getElementById('modalCategory').textContent=item.category;
   document.getElementById('modalTitle').textContent=item.title;

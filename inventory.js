@@ -305,5 +305,786 @@ const INVENTORY = [
     serial: '',
     details: ['Portable water pump', 'Call for engine / pump specifications', 'Delivery available'],
     lot: '7902'
+  },
+
+  // =============================================================
+  // ADDED FROM BIG STAR AUCTION LISTINGS SPREADSHEET
+  // Website prices = your Selling Price + 25% (sold rows excluded)
+  // =============================================================
+  {
+    "id": "sheet-1",
+    "title": "NEW Future Skid Steer Auger w/3 Bits",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1238,
+    "status": "Available",
+    "image": "assets/images/inventory/excavator-auger.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70127",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-2",
+    "title": "NEW Future Skid Steer TC38 Trencher",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 2125,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-stump-grapple.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70369",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-3",
+    "title": "NEW Future Mini Skid Steer Trencher",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Mini Skid Steer Attachments",
+    "price": 3625,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-stump-grapple.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70418",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-4",
+    "title": "NEW JCT Skid Steer 84\" Angle Broom",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1488,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70950",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-5",
+    "title": "NEW JCT Skid Steer Tiller",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1488,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 3",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "71001, 71000, 70999",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-6",
+    "title": "NEW JCT Skid Steer Brush Cutter",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 3000,
+    "status": "Available",
+    "image": "assets/images/inventory/wolverine-60.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "71017, 71018",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-7",
+    "title": "NEW Wolverine Skid Steer Tiller",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1488,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70464, 70463",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-8",
+    "title": "NEW Wolverine Mini Skid Steer Grapple Bucket",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Mini Skid Steer Attachments",
+    "price": 1750,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-stump-grapple.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70460",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-9",
+    "title": "NEW AGT 9pc Mini Ex Attachment Set",
+    "category": "Mini Excavator Attachments",
+    "type": "Mini Excavator Attachments",
+    "price": 1500,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-excavator-9pc.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70899",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-10",
+    "title": "NEW AGT Skid Steer Brush Cutter",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 3000,
+    "status": "Available",
+    "image": "assets/images/inventory/wolverine-60.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70893, 70894",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-11",
+    "title": "NEW AGT Skid Steer Brush Cutter",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 2375,
+    "status": "Available",
+    "image": "assets/images/inventory/wolverine-60.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70895",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-12",
+    "title": "NEW AGT Skid Steer Flail Mower",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 3062,
+    "status": "Available",
+    "image": "assets/images/inventory/wolverine-60.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "70883, 70878",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-13",
+    "title": "5th Wheel Wrecker Attachment FW80",
+    "category": "Towing & Recovery",
+    "type": "Towing & Recovery",
+    "price": 8000,
+    "status": "Available",
+    "image": "assets/images/inventory/tow-hitch.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "71730",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-14",
+    "title": "6 Seaters red golf cart",
+    "category": "Golf Carts",
+    "type": "Golf Carts",
+    "price": 8500,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1713729372679-7feb052d74a6?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "1555",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-15",
+    "title": "6 Seaters black golf cart",
+    "category": "Golf Carts",
+    "type": "Golf Carts",
+    "price": 8500,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1713729372679-7feb052d74a6?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "1560, 1579",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-16",
+    "title": "White 4 seaters SDLOOL SL-GC22S Electric Golf Cart (Unused)",
+    "category": "Golf Carts",
+    "type": "Golf Carts",
+    "price": 6500,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1713729372679-7feb052d74a6?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "1580",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-17",
+    "title": "White4 seaters SDLOOL SL-GC22S Electric Golf Cart (Unused)",
+    "category": "Golf Carts",
+    "type": "Golf Carts",
+    "price": 6500,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1713729372679-7feb052d74a6?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "N/A",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-18",
+    "title": "Red 4 seaters SDLOOL SL-GC22S Electric Golf Cart (Unused)",
+    "category": "Golf Carts",
+    "type": "Golf Carts",
+    "price": 7250,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1713729372679-7feb052d74a6?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "1581",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-19",
+    "title": "2026 AGT SDA140T Mini Compact Track Loader (Unused)",
+    "category": "Skid Steers",
+    "type": "Skid Steers",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1763516763181-4372f2987360?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "149",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-20",
+    "title": "2026 SDLOOL SL-V1000 Mini Compact Track Loader (Unused)",
+    "category": "Skid Steers",
+    "type": "Skid Steers",
+    "price": 18625,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1763516763181-4372f2987360?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 3",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "154, 215, 216",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-21",
+    "title": "2026 AGT MX-MRT14 Mini Compact Track Loader (Unused)",
+    "category": "Skid Steers",
+    "type": "Skid Steers",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1763516763181-4372f2987360?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "183, 184",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-22",
+    "title": "2026 CFG H16R Mini Excavator (Unused)",
+    "category": "Excavators",
+    "type": "Excavators",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "546",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-23",
+    "title": "2026 CFG MX15RX Mini Excavator (Unused)",
+    "category": "Excavators",
+    "type": "Excavators",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "553",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-24",
+    "title": "2026 ME15 Gasoline Mini Excavator (Unused)",
+    "category": "Excavators",
+    "type": "Excavators",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "557",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-25",
+    "title": "2026 CFG H13R Mini Excavator (Unused)",
+    "category": "Excavators",
+    "type": "Excavators",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 3",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "566, 569, 575",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-26",
+    "title": "2026 CFG MH13RX Mini Excavator (Unused)",
+    "category": "Excavators",
+    "type": "Excavators",
+    "price": 4875,
+    "status": "Available",
+    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "593",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-27",
+    "title": "2025 ARTEER CM-300V Skid Steer Concrete Mixer (Unused)",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 4250,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4192",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-28",
+    "title": "All-Star Skid Steer Stump Bucket (Unused)",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1488,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-stump-grapple.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4270",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-29",
+    "title": "2026 Wolverine SB-12-72W Skid Steer Screening Bucket (Unused)",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1750,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4286",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-30",
+    "title": "2025 ARTEER SB-72W 72 in Skid Steer Screening Bucket (Unused)",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 1750,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4287",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-31",
+    "title": "Quantity of (9) 2026 AGT 12EX-ATA Mini Excavator Attachments (Unused)",
+    "category": "Mini Excavator Attachments",
+    "type": "Mini Excavator Attachments",
+    "price": 1500,
+    "status": "Available",
+    "image": "assets/images/inventory/mini-excavator-9pc.jpg",
+    "serial": "",
+    "details": [
+      "New / unused",
+      "Quantity available: 2",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4556, 4557",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-32",
+    "title": "2027 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "2",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-33",
+    "title": "2028 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "3",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-34",
+    "title": "2029 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "4",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-35",
+    "title": "2030 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "5",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-36",
+    "title": "2031 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "6",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-37",
+    "title": "2032 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "7",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-38",
+    "title": "2033 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "8",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-39",
+    "title": "2034 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "9",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-40",
+    "title": "2035 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "10",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-41",
+    "title": "2036 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "11",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-42",
+    "title": "2037 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "12",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-43",
+    "title": "2038 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "13",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-44",
+    "title": "2039 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "14",
+    "representativeImage": true
+  },
+  {
+    "id": "sheet-45",
+    "title": "2040 Mower King SA-100 48 in Heavy Duty Skid Steer Forks",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Full-Size Skid Steer Attachments",
+    "price": 625,
+    "status": "Available",
+    "image": "assets/images/inventory/mount-plate.jpg",
+    "serial": "",
+    "details": [
+      "Available inventory",
+      "Representative category photo; actual item may vary",
+      "Delivery available"
+    ],
+    "lot": "15",
+    "representativeImage": true
   }
+
 ];
