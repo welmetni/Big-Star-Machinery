@@ -10,3 +10,43 @@
 .modal-thumb.active{border-color:var(--gold);opacity:1}
 .modal-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 @media(max-width:650px){.modal-main-image{height:285px}.modal-thumb{flex-basis:72px;width:72px;height:54px}}
+
+/* ===== FILTER BAR CLICK / FREEZE FIX =====
+   Keep the hero artwork from sitting invisibly over the controls. */
+.hero{
+  z-index:1;
+  overflow:hidden;
+}
+.hero-overlay{
+  pointer-events:none !important;
+}
+.hero-inner{
+  pointer-events:none;
+}
+.filter-shell{
+  position:relative !important;
+  z-index:30 !important;
+  isolation:isolate;
+  pointer-events:auto !important;
+}
+.filter-row{
+  position:relative;
+  z-index:31;
+  pointer-events:auto !important;
+}
+.search-box,
+.search-box input,
+.filter-row select,
+.filter-button{
+  position:relative;
+  z-index:32;
+  pointer-events:auto !important;
+  touch-action:manipulation;
+}
+.search-box input{
+  cursor:text;
+}
+.filter-row select,
+.filter-button{
+  cursor:pointer;
+}
