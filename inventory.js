@@ -469,22 +469,25 @@ const INVENTORY = [
     "id": "sheet-10",
     "title": "NEW AGT Skid Steer Brush Cutter",
     "category": "Full-Size Skid Steer Attachments",
-    "type": "Full-Size Skid Steer Attachments",
+    "type": "Brush Cutter",
     "price": 3000,
     "status": "Available",
-    "image": "assets/images/inventory/wolverine-60.jpg",
+    "image": "assets/images/inventory/new-update-2/agt-brush-cutter-1.jpg",
     "serial": "",
     "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Call or text with your machine model to confirm fitment",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "Built to add more capability and productivity to your skid steer on demanding jobs",
-      "Great for contractors, farms, ranches, landscaping crews and property maintenance"
+      "Brand new / unused AGT hydraulic skid steer brush cutter",
+      "Heavy-duty cutting deck built for clearing grass, brush and overgrown vegetation",
+      "Great for ranches, acreage, fence lines, trails, right-of-ways and property cleanup",
+      "Hydraulic drive with skid steer quick-attach mounting",
+      "Wide cutting design helps cover ground faster on land-clearing and maintenance jobs",
+      "A strong attachment for contractors, farms, ranches and landscaping crews",
+      "Call with your skid steer model and hydraulic flow to confirm fitment",
+      "Delivery available"
     ],
-    "representativeImage": true
+    "images": [
+      "assets/images/inventory/new-update-2/agt-brush-cutter-1.jpg",
+      "assets/images/inventory/new-update-2/agt-brush-cutter-2.jpg"
+    ]
   },
   {
     "id": "sheet-12",
@@ -897,24 +900,26 @@ const INVENTORY = [
   },
   {
     "id": "sheet-28",
-    "title": "All-Star Skid Steer Stump Bucket",
+    "title": "NEW All-Star Skid Steer Stump Bucket",
     "category": "Full-Size Skid Steer Attachments",
-    "type": "Full-Size Skid Steer Attachments",
+    "type": "Stump Bucket",
     "price": 1488,
     "status": "Available",
-    "image": "assets/images/inventory/mini-stump-grapple.jpg",
+    "image": "assets/images/inventory/new-update-2/stump-bucket-1.jpg",
     "serial": "",
     "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Call or text with your machine model to confirm fitment",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "Built to add more capability and productivity to your skid steer on demanding jobs",
-      "Great for contractors, farms, ranches, landscaping crews and property maintenance"
+      "Brand new heavy-duty skid steer stump bucket / stump digging bucket",
+      "Narrow reinforced bucket profile is designed to concentrate digging force around roots and stumps",
+      "Great for digging stumps, roots, rocks, compacted soil and trenching narrow areas",
+      "Useful for land clearing, fence-line work, landscaping and property cleanup",
+      "Heavy steel construction with skid steer quick-attach mounting",
+      "A practical attachment for contractors, farms, ranches and acreage maintenance",
+      "Call with your skid steer model to confirm fitment",
+      "Delivery available"
     ],
-    "representativeImage": true
+    "images": [
+      "assets/images/inventory/new-update-2/stump-bucket-1.jpg"
+    ]
   },
   {
     "id": "sheet-29",
