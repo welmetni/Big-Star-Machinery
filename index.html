@@ -3,131 +3,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Big Star Machinery | Machinery & Attachments | Hempstead, TX</title>
-  <meta name="description" content="Big Star Machinery in Hempstead, Texas. New and used machinery, skid steer attachments, excavator attachments, mulchers, towing equipment and more. Delivery available." />
+  <title>Big Star Machinery | Equipment & Attachments | Hempstead, TX</title>
+  <meta name="description" content="Big Star Machinery in Hempstead, Texas. Machinery, skid steers, excavators, attachments and more. Delivery available." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Big Star Machinery home">
-      <img src="assets/logo-banner.png" alt="Big Star Machinery & Attachments" />
+      <span class="brand-star">☆</span>
+      <span class="brand-words"><strong>BIG STAR</strong><small>MACHINERY</small></span>
     </a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
     <nav id="mainNav">
-      <a class="active-nav" href="#top">Home</a>
-      <a href="#inventory">Inventory</a>
-      <a href="#delivery">Delivery</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-call" href="tel:8322136736">☎ (832) 213-6736</a>
+      <a class="active-nav" href="#top">HOME</a>
+      <a href="#inventory">INVENTORY</a>
+      <a href="#inventory">ATTACHMENTS</a>
+      <a href="#about">ABOUT US</a>
+      <a href="#contact">CONTACT</a>
     </nav>
+    <div class="header-phones">
+      <a href="tel:8322136736">☎ (832) 213-6736</a>
+      <a href="tel:8326140914">☎ (832) 614-0914</a>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-shade"></div>
+      <div class="hero-overlay"></div>
       <div class="hero-inner">
-        <div class="eyebrow">QUALITY MACHINERY. UNBEATABLE PRICES.</div>
-        <h1>Built to Get<br>The Job Done.</h1>
-        <p>Your one-stop shop for machinery, attachments and more. Located in Hempstead, Texas with delivery available.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#inventory">View Inventory</a>
-          <a class="button secondary" href="tel:8322136736">Call Sales</a>
-        </div>
-        <div class="hero-points">
-          <span>★ New & Used Equipment</span>
-          <span>★ Delivery Available</span>
-          <span>★ Hempstead, TX</span>
+        <h1><span>BUILT TO GET</span><strong>THE JOB DONE.</strong></h1>
+        <div class="hero-subline">QUALITY MACHINES.</div>
+        <div class="hero-subline">FAIR PRICES. REAL RESULTS.</div>
+        <div class="hero-badges">
+          <span>◈ <b>QUALITY</b><small>EQUIPMENT</small></span>
+          <span>◇ <b>FAIR</b><small>PRICES</small></span>
+          <span>🤝 <b>BUILT ON</b><small>TRUST</small></span>
         </div>
       </div>
     </section>
 
-    <section class="category-section" id="inventory">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow dark">SHOP BY CATEGORY</span>
-          <h2>Current Inventory</h2>
-        </div>
-        <div class="inventory-count"><strong id="count">0</strong> items shown</div>
-      </div>
-
-      <div class="category-bar" id="categoryBar">
-        <button class="category active" data-category="All">All Inventory</button>
-        <button class="category" data-category="Skid Steers">Skid Steers</button>
-        <button class="category" data-category="Excavators">Excavators</button>
-        <button class="category" data-category="Golf Carts">Golf Carts</button>
-        <button class="category" data-category="Mini Skid Steer Attachments">Mini Attachments</button>
-        <button class="category" data-category="Full-Size Skid Steer Attachments">Skid Steer Attachments</button>
-        <button class="category" data-category="Mini Excavator Attachments">Mini Excavator Attachments</button>
-        <button class="category" data-category="Excavator Attachments">Excavator Attachments</button>
-        <button class="category" data-category="Towing & Recovery">Towing</button>
-        <button class="category" data-category="Shop Equipment">Shop Equipment</button>
-        <button class="category" data-category="Other Equipment">Other</button>
-      </div>
-
-      <div class="tools-row">
+    <section class="filter-shell" id="inventory">
+      <div class="filter-row">
         <label class="search-box">
           <span>⌕</span>
           <input id="searchInput" type="search" placeholder="Search inventory by model, type, category, or serial..." />
         </label>
-        <select id="sortSelect" aria-label="Sort inventory">
-          <option value="featured">Sort: Featured</option>
-          <option value="price-low">Price: Low to High</option>
-          <option value="price-high">Price: High to Low</option>
-          <option value="name">Name: A-Z</option>
+        <select id="categorySelect" aria-label="Category"><option value="All">All Categories</option></select>
+        <select id="typeSelect" aria-label="Type"><option value="All">All Types</option></select>
+        <select id="conditionSelect" aria-label="Condition">
+          <option value="All">All Conditions</option>
+          <option value="Available">Available</option>
+          <option value="Sold">Sold</option>
         </select>
+        <button class="filter-button" id="filterButton">☰ FILTER</button>
       </div>
-
-      <div class="inventory-grid" id="inventoryGrid"></div>
-      <div class="no-results" id="noResults" hidden>No inventory matches that filter. Call us and we may have more equipment coming in.</div>
     </section>
 
-    <section class="delivery-section" id="delivery">
-      <div class="delivery-copy">
-        <span class="eyebrow">DELIVERY AVAILABLE</span>
-        <h2>Need it delivered?</h2>
-        <p>Send us your ZIP code and the item you want. We can help arrange delivery in Texas and out of state.</p>
-        <a class="button primary" href="sms:8322136736?&body=Hi%20Big%20Star%20Machinery,%20I%20need%20a%20delivery%20quote.%20My%20ZIP%20code%20is%20">Text for Delivery Quote</a>
+    <section class="inventory-section">
+      <div class="inventory-title-row">
+        <h2>🏗 INVENTORY</h2>
+        <div>Showing: <strong id="count">0</strong> items</div>
       </div>
-      <div class="delivery-card">
-        <div class="big-icon">🚚</div>
-        <strong>Fast Delivery Quotes</strong>
-        <p>Tell us the machine or attachment and destination ZIP code.</p>
+      <div class="inventory-grid" id="inventoryGrid"></div>
+      <div class="no-results" id="noResults" hidden>No inventory matches your search.</div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div>
+        <span class="eyebrow">BIG STAR MACHINERY</span>
+        <h2>Equipment ready to work.</h2>
+        <p>We sell machinery and attachments from Hempstead, Texas. Call or text us for availability, fitment questions and delivery quotes.</p>
+      </div>
+      <div class="about-points">
+        <span>✓ New & used equipment</span>
+        <span>✓ Delivery available</span>
+        <span>✓ Call or text sales</span>
       </div>
     </section>
 
     <section class="contact-section" id="contact">
-      <div class="section-heading contact-heading">
-        <div>
-          <span class="eyebrow dark">CONTACT BIG STAR</span>
-          <h2>Call or Text Us</h2>
-        </div>
-      </div>
+      <h2>CALL OR TEXT US</h2>
       <div class="contact-grid">
-        <a class="contact-card" href="tel:8322136736"><span>SALES</span><strong>(832) 213-6736</strong><small>Call or text</small></a>
-        <a class="contact-card" href="tel:8326140914"><span>SALES</span><strong>(832) 614-0914</strong><small>Call or text</small></a>
-        <a class="contact-card" href="tel:7135173399"><span>CUSTOMER SERVICE</span><strong>(713) 517-3399</strong><small>Questions & support</small></a>
+        <a href="tel:8322136736"><small>SALES</small><strong>(832) 213-6736</strong></a>
+        <a href="tel:8326140914"><small>SALES</small><strong>(832) 614-0914</strong></a>
+        <a href="tel:7135173399"><small>CUSTOMER SERVICE</small><strong>(713) 517-3399</strong></a>
       </div>
     </section>
   </main>
 
-  <footer>
-    <img src="assets/logo-banner.png" alt="Big Star Machinery" />
-    <div>
-      <strong>Big Star Machinery & Attachments</strong>
-      <p>Hempstead, Texas • Delivery Available</p>
-    </div>
-    <div class="footer-links">
-      <a href="#inventory">Inventory</a>
-      <a href="#delivery">Delivery</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <p class="fine-print">Equipment availability, specifications and pricing are subject to change. Confirm fitment before purchasing attachments. Some online photos are representative category images and may not show the exact unit.</p>
-  </footer>
-
-  <div class="mobile-callbar">
-    <a href="tel:8322136736">📞 Call Sales</a>
-    <a href="sms:8322136736">💬 Text Sales</a>
-  </div>
+  <footer>Big Star Machinery • Hempstead, Texas • Delivery Available</footer>
 
   <div class="modal" id="itemModal" hidden>
     <div class="modal-backdrop" data-close-modal></div>
@@ -141,8 +105,8 @@
         <ul id="modalDetails"></ul>
         <div id="modalMeta" class="modal-meta"></div>
         <div class="modal-actions">
-          <a class="button primary" id="modalCall" href="tel:8322136736">Call Sales</a>
-          <a class="button dark-button" id="modalText" href="sms:8322136736">Text About This Item</a>
+          <a class="btn-outline" href="tel:8322136736">CALL SALES</a>
+          <a class="btn-gold" id="modalText" href="sms:8322136736">TEXT ABOUT THIS ITEM</a>
         </div>
       </div>
     </article>
