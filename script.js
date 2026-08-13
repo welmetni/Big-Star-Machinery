@@ -6,6 +6,8 @@ const grid = document.getElementById('inventoryGrid');
 const countEl = document.getElementById('count');
 const noResults = document.getElementById('noResults');
 const money = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+const DISCOUNT_RATE = 0.25;
+const regularPrice = salePrice => salePrice / (1 - DISCOUNT_RATE);
 
 function filteredItems(){
   let items = [...INVENTORY];
@@ -34,7 +36,10 @@ function render(){
       <div class="item-body">
         <div class="item-category">${item.category}</div>
         <h3 class="item-title">${item.title}</h3>
-        <div class="item-price">${money.format(item.price)}</div>
+        <div class="price-block">
+          <div class="regular-price">${money.format(regularPrice(item.price))}</div>
+          <div class="sale-row"><span class="sale-price">${money.format(item.price)}</span><span class="discount-badge">25% OFF</span></div>
+        </div>
         <div class="item-detail">${item.details.slice(0,2).join(' • ')}</div>
         <div class="item-actions">
           <button class="view-btn" onclick="openItem('${item.id}')">View Details</button>
@@ -68,7 +73,7 @@ function openItem(id){
   document.getElementById('modalImage').alt=item.title;
   document.getElementById('modalCategory').textContent=item.category;
   document.getElementById('modalTitle').textContent=item.title;
-  document.getElementById('modalPrice').textContent=money.format(item.price);
+  document.getElementById('modalPrice').innerHTML=`<div class="modal-regular-price">${money.format(regularPrice(item.price))}</div><div class="modal-sale-row"><span class="modal-sale-price">${money.format(item.price)}</span><span class="discount-badge">25% OFF</span></div>`;
   document.getElementById('modalDetails').innerHTML=item.details.map(x=>`<li>${x}</li>`).join('');
   document.getElementById('modalMeta').innerHTML=item.serial?`<strong>Serial:</strong> ${item.serial}`:'';
   document.getElementById('modalText').href='sms:8322136736?&body='+encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+'. Please send me more information.');
