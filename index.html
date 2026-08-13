@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Star Machinery | Machinery & Attachments | Hempstead, TX</title>
+  <meta name="description" content="Big Star Machinery in Hempstead, Texas. New and used machinery, skid steer attachments, excavator attachments, mulchers, towing equipment and more. Delivery available." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-strip">
+    <div>📍 Hempstead, Texas</div>
+    <div>🚚 Delivery Available — Call/Text Your ZIP Code</div>
+    <div class="top-phone"><a href="tel:8322136736">Sales: (832) 213-6736</a></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Big Star Machinery home">
+      <img src="assets/logo-banner.png" alt="Big Star Machinery & Attachments" />
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#inventory">Inventory</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-call" href="tel:8322136736">Call Sales</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <div class="eyebrow">BIG STAR MACHINERY & ATTACHMENTS</div>
+        <h1>Equipment Ready to Work.</h1>
+        <p>Skid steer attachments, excavator attachments, mulchers, shop equipment and more. Located in Hempstead, Texas with delivery available.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#inventory">View Inventory</a>
+          <a class="button secondary" href="tel:8322136736">Call (832) 213-6736</a>
+        </div>
+        <div class="hero-points">
+          <span>✓ New & Used Equipment</span>
+          <span>✓ Delivery Available</span>
+          <span>✓ Call or Text Sales</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section" id="inventory">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow dark">SHOP BY CATEGORY</span>
+          <h2>Current Inventory</h2>
+        </div>
+        <div class="inventory-count"><strong id="count">0</strong> items shown</div>
+      </div>
+
+      <div class="category-bar" id="categoryBar">
+        <button class="category active" data-category="All">All Inventory</button>
+        <button class="category" data-category="Skid Steers">Skid Steers</button>
+        <button class="category" data-category="Excavators">Excavators</button>
+        <button class="category" data-category="Mini Skid Steer Attachments">Mini Attachments</button>
+        <button class="category" data-category="Full-Size Skid Steer Attachments">Skid Steer Attachments</button>
+        <button class="category" data-category="Mini Excavator Attachments">Mini Excavator Attachments</button>
+        <button class="category" data-category="Excavator Attachments">Excavator Attachments</button>
+        <button class="category" data-category="Towing & Recovery">Towing</button>
+        <button class="category" data-category="Shop Equipment">Shop Equipment</button>
+        <button class="category" data-category="Other Equipment">Other</button>
+      </div>
+
+      <div class="tools-row">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Search model, type, lot #..." />
+        </label>
+        <select id="sortSelect" aria-label="Sort inventory">
+          <option value="featured">Sort: Featured</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="name">Name: A-Z</option>
+        </select>
+      </div>
+
+      <div class="inventory-grid" id="inventoryGrid"></div>
+      <div class="no-results" id="noResults" hidden>No inventory matches that filter. Call us and we may have more equipment coming in.</div>
+    </section>
+
+    <section class="delivery-section" id="delivery">
+      <div class="delivery-copy">
+        <span class="eyebrow">DELIVERY AVAILABLE</span>
+        <h2>Need it delivered?</h2>
+        <p>Send us your ZIP code and the item you want. We can help arrange delivery in Texas and out of state.</p>
+        <a class="button primary" href="sms:8322136736?&body=Hi%20Big%20Star%20Machinery,%20I%20need%20a%20delivery%20quote.%20My%20ZIP%20code%20is%20">Text for Delivery Quote</a>
+      </div>
+      <div class="delivery-card">
+        <div class="big-icon">🚚</div>
+        <strong>Fast Delivery Quotes</strong>
+        <p>Tell us the machine or attachment and destination ZIP code.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-heading contact-heading">
+        <div>
+          <span class="eyebrow dark">CONTACT BIG STAR</span>
+          <h2>Call or Text Us</h2>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card" href="tel:8322136736"><span>SALES</span><strong>(832) 213-6736</strong><small>Call or text</small></a>
+        <a class="contact-card" href="tel:8326140914"><span>SALES</span><strong>(832) 614-0914</strong><small>Call or text</small></a>
+        <a class="contact-card" href="tel:7135173399"><span>CUSTOMER SERVICE</span><strong>(713) 517-3399</strong><small>Questions & support</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo-banner.png" alt="Big Star Machinery" />
+    <div>
+      <strong>Big Star Machinery & Attachments</strong>
+      <p>Hempstead, Texas • Delivery Available</p>
+    </div>
+    <div class="footer-links">
+      <a href="#inventory">Inventory</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="fine-print">Equipment availability, specifications and pricing are subject to change. Confirm fitment before purchasing attachments.</p>
+  </footer>
+
+  <div class="mobile-callbar">
+    <a href="tel:8322136736">📞 Call Sales</a>
+    <a href="sms:8322136736">💬 Text Sales</a>
+  </div>
+
+  <div class="modal" id="itemModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <img id="modalImage" alt="" />
+      <div class="modal-body">
+        <span id="modalCategory" class="modal-category"></span>
+        <h2 id="modalTitle"></h2>
+        <div id="modalPrice" class="modal-price"></div>
+        <ul id="modalDetails"></ul>
+        <div id="modalMeta" class="modal-meta"></div>
+        <div class="modal-actions">
+          <a class="button primary" id="modalCall" href="tel:8322136736">Call Sales</a>
+          <a class="button dark-button" id="modalText" href="sms:8322136736">Text About This Item</a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script src="inventory.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
