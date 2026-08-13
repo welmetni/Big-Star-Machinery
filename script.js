@@ -22,9 +22,9 @@ function priceHTML(item){
 }
 function fallbackImage(img){img.onerror=null;img.src='assets/big-star-hero.jpg';}
 function cardHTML(item){
-  const rep=item.image?.startsWith('http')?'REPRESENTATIVE PHOTO':'';
+  const rep=item.representativeImage===true||item.image?.startsWith('http')?'REPRESENTATIVE PHOTO':'';
   return `<article class="item-card">
-    <div class="image-wrap"><img src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}</div>
+    <div class="image-wrap"><img src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}${(item.images||[]).length>1?`<span class="photo-count">📷 ${(item.images||[]).length} PHOTOS</span>`:''}</div>
     <div class="item-body">
       <div class="item-category">${item.category}</div>
       <h3>${item.title}</h3>
@@ -53,10 +53,20 @@ document.getElementById('filterButton').addEventListener('click',render);
 menuToggle.addEventListener('click',()=>mainNav.classList.toggle('open'));
 mainNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mainNav.classList.remove('open')));
 
+function setModalImage(src,title,index){
+  const main=document.getElementById('modalImage');
+  main.src=src;
+  main.alt=`${title} photo ${index+1}`;
+  main.onerror=function(){fallbackImage(this)};
+  document.querySelectorAll('.modal-thumb').forEach((b,i)=>b.classList.toggle('active',i===index));
+}
 function openItem(id){
   const item=INVENTORY.find(x=>String(x.id)===String(id));if(!item)return;
-  document.getElementById('modalImage').src=item.image||'assets/big-star-hero.jpg';
-  document.getElementById('modalImage').onerror=function(){fallbackImage(this)};
+  const photos=(item.images&&item.images.length?item.images:[item.image]).filter(Boolean);
+  setModalImage(photos[0]||'assets/big-star-hero.jpg',item.title,0);
+  const thumbs=document.getElementById('modalThumbs');
+  thumbs.innerHTML=photos.length>1?photos.map((src,i)=>`<button class="modal-thumb ${i===0?'active':''}" type="button" data-photo-index="${i}" aria-label="View photo ${i+1}"><img src="${src}" alt="" onerror="fallbackImage(this)"></button>`).join(''):'';
+  thumbs.querySelectorAll('.modal-thumb').forEach(btn=>btn.addEventListener('click',()=>setModalImage(photos[Number(btn.dataset.photoIndex)],item.title,Number(btn.dataset.photoIndex))));
   document.getElementById('modalCategory').textContent=item.category;
   document.getElementById('modalTitle').textContent=item.title;
   document.getElementById('modalPrice').innerHTML=priceHTML(item);

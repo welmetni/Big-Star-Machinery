@@ -100,7 +100,10 @@
     <div class="modal-backdrop" data-close-modal></div>
     <article class="modal-card">
       <button class="modal-close" data-close-modal aria-label="Close">×</button>
-      <img id="modalImage" alt="" />
+      <div class="modal-gallery">
+        <img id="modalImage" class="modal-main-image" alt="" />
+        <div id="modalThumbs" class="modal-thumbs"></div>
+      </div>
       <div class="modal-body">
         <span id="modalCategory" class="modal-category"></span>
         <h2 id="modalTitle"></h2>
