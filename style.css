@@ -5,3 +5,13 @@
 
 /* SALE PRICING */
 .price-block{margin:4px 0 14px}.regular-price{color:#8f8f93;text-decoration:line-through;text-decoration-thickness:2px;font-size:17px;font-weight:800;margin-bottom:3px}.sale-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.sale-price{font-size:31px;font-weight:900;color:var(--orange);line-height:1}.discount-badge{display:inline-block;background:#b11f24;color:#fff;padding:5px 8px;border-radius:3px;font-size:11px;font-weight:900;letter-spacing:.5px;white-space:nowrap}.modal-price{margin:12px 0}.modal-regular-price{font-size:20px;color:#777;text-decoration:line-through;text-decoration-thickness:2px;font-weight:800}.modal-sale-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:4px}.modal-sale-price{font-size:38px;font-weight:900;color:#111;line-height:1}.item-price{display:none}
+
+/* CLEAN SALE PRICE LAYOUT */
+.price-block{margin:8px 0 18px!important;display:block!important}
+.price-top-row{display:flex!important;align-items:center!important;gap:10px!important;margin-bottom:7px!important;flex-wrap:wrap!important}
+.regular-price,.modal-regular-price{display:inline-block!important;color:#8b8b8b!important;font-size:18px!important;font-weight:700!important;text-decoration-line:line-through!important;text-decoration-thickness:2px!important;text-decoration-color:#d22!important;margin:0!important;line-height:1.2!important}
+.discount-badge{display:inline-block!important;background:#c62828!important;color:#fff!important;border-radius:4px!important;padding:5px 9px!important;font-size:12px!important;font-weight:900!important;line-height:1!important;letter-spacing:.3px!important}
+.sale-price-label{display:block!important;color:#777!important;font-size:11px!important;font-weight:900!important;letter-spacing:1.2px!important;margin:0 0 2px!important}
+.sale-price{display:block!important;color:var(--orange)!important;font-size:32px!important;font-weight:900!important;line-height:1.05!important;margin:0!important}
+.modal-sale-price{display:block!important;color:#111!important;font-size:40px!important;font-weight:900!important;line-height:1.05!important;margin:0!important}
+.item-price{display:none!important}

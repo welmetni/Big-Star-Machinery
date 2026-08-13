@@ -37,8 +37,9 @@ function render(){
         <div class="item-category">${item.category}</div>
         <h3 class="item-title">${item.title}</h3>
         <div class="price-block">
-          <div class="regular-price">${money.format(regularPrice(item.price))}</div>
-          <div class="sale-row"><span class="sale-price">${money.format(item.price)}</span><span class="discount-badge">25% OFF</span></div>
+          <div class="price-top-row"><span class="regular-price">${money.format(regularPrice(item.price))}</span><span class="discount-badge">25% OFF</span></div>
+          <div class="sale-price-label">SALE PRICE</div>
+          <div class="sale-price">${money.format(item.price)}</div>
         </div>
         <div class="item-detail">${item.details.slice(0,2).join(' • ')}</div>
         <div class="item-actions">
@@ -73,7 +74,7 @@ function openItem(id){
   document.getElementById('modalImage').alt=item.title;
   document.getElementById('modalCategory').textContent=item.category;
   document.getElementById('modalTitle').textContent=item.title;
-  document.getElementById('modalPrice').innerHTML=`<div class="modal-regular-price">${money.format(regularPrice(item.price))}</div><div class="modal-sale-row"><span class="modal-sale-price">${money.format(item.price)}</span><span class="discount-badge">25% OFF</span></div>`;
+  document.getElementById('modalPrice').innerHTML=`<div class="price-top-row"><span class="modal-regular-price">${money.format(regularPrice(item.price))}</span><span class="discount-badge">25% OFF</span></div><div class="sale-price-label">SALE PRICE</div><div class="modal-sale-price">${money.format(item.price)}</div>`;
   document.getElementById('modalDetails').innerHTML=item.details.map(x=>`<li>${x}</li>`).join('');
   document.getElementById('modalMeta').innerHTML=item.serial?`<strong>Serial:</strong> ${item.serial}`:'';
   document.getElementById('modalText').href='sms:8322136736?&body='+encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+'. Please send me more information.');
