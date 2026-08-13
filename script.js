@@ -12,7 +12,7 @@ function filteredItems(){
   if(currentCategory !== 'All') items = items.filter(item => item.category === currentCategory);
   if(currentSearch){
     const q = currentSearch.toLowerCase();
-    items = items.filter(item => [item.title,item.category,item.type,item.serial,item.lot].join(' ').toLowerCase().includes(q));
+    items = items.filter(item => [item.title,item.category,item.type,item.serial,...(item.details||[])].join(' ').toLowerCase().includes(q));
   }
   if(currentSort === 'price-low') items.sort((a,b)=>a.price-b.price);
   if(currentSort === 'price-high') items.sort((a,b)=>b.price-a.price);
@@ -29,7 +29,7 @@ function render(){
       <div class="item-image-wrap">
         <img class="item-image" src="${item.image}" alt="${item.title}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/inventory/mount-plate.jpg'">
         <span class="status-badge">${item.status}</span>
-        <span class="lot-badge">Lot ${item.lot}</span>${item.representativeImage ? '<span class="photo-badge">Representative Photo</span>' : ''}
+        ${item.representativeImage ? '<span class="photo-badge">Representative Photo</span>' : ''}
       </div>
       <div class="item-body">
         <div class="item-category">${item.category}</div>
@@ -38,7 +38,7 @@ function render(){
         <div class="item-detail">${item.details.slice(0,2).join(' • ')}</div>
         <div class="item-actions">
           <button class="view-btn" onclick="openItem('${item.id}')">View Details</button>
-          <a class="text-btn" href="sms:8322136736?&body=${encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+' (Lot '+item.lot+'). Is it still available?')}">Text Us</a>
+          <a class="text-btn" href="sms:8322136736?&body=${encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+'. Is it still available?')}">Text Us</a>
         </div>
       </div>
     </article>
@@ -70,8 +70,8 @@ function openItem(id){
   document.getElementById('modalTitle').textContent=item.title;
   document.getElementById('modalPrice').textContent=money.format(item.price);
   document.getElementById('modalDetails').innerHTML=item.details.map(x=>`<li>${x}</li>`).join('');
-  document.getElementById('modalMeta').innerHTML=`<strong>Lot:</strong> ${item.lot}${item.serial?` &nbsp; <strong>Serial:</strong> ${item.serial}`:''}`;
-  document.getElementById('modalText').href='sms:8322136736?&body='+encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+' (Lot '+item.lot+'). Please send me more information.');
+  document.getElementById('modalMeta').innerHTML=item.serial?`<strong>Serial:</strong> ${item.serial}`:'';
+  document.getElementById('modalText').href='sms:8322136736?&body='+encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+'. Please send me more information.');
   modal.hidden=false;document.body.style.overflow='hidden';
 }
 window.openItem=openItem;
