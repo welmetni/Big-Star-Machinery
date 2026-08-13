@@ -24,7 +24,7 @@ function fallbackImage(img){img.onerror=null;img.src='assets/big-star-hero.jpg';
 function cardHTML(item){
   const rep=item.representativeImage===true||item.image?.startsWith('http')?'REPRESENTATIVE PHOTO':'';
   return `<article class="item-card">
-    <div class="image-wrap"><img src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}${(item.images||[]).length>1?`<span class="photo-count">📷 ${(item.images||[]).length} PHOTOS</span>`:''}</div>
+    <div class="image-wrap"><img loading="lazy" decoding="async" src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}${(item.images||[]).length>1?`<span class="photo-count">📷 ${(item.images||[]).length} PHOTOS</span>`:''}</div>
     <div class="item-body">
       <div class="item-category">${item.category}</div>
       <h3>${item.title}</h3>
@@ -42,13 +42,22 @@ function matches(item){
   const condOK=conditionSelect.value==='All'||item.status===conditionSelect.value;
   return qOK&&catOK&&typeOK&&condOK;
 }
+let renderTimer;
 function render(){
   const items=INVENTORY.filter(matches);
-  grid.innerHTML=items.map(cardHTML).join('');
-  count.textContent=items.length;
-  noResults.hidden=items.length>0;
+  const html=items.map(cardHTML).join('');
+  requestAnimationFrame(()=>{
+    grid.innerHTML=html;
+    count.textContent=items.length;
+    noResults.hidden=items.length>0;
+  });
 }
-[searchInput,categorySelect,typeSelect,conditionSelect].forEach(el=>el.addEventListener(el===searchInput?'input':'change',render));
+function debouncedRender(){
+  clearTimeout(renderTimer);
+  renderTimer=setTimeout(render,220);
+}
+searchInput.addEventListener('input',debouncedRender);
+[categorySelect,typeSelect,conditionSelect].forEach(el=>el.addEventListener('change',render));
 document.getElementById('filterButton').addEventListener('click',render);
 menuToggle.addEventListener('click',()=>mainNav.classList.toggle('open'));
 mainNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mainNav.classList.remove('open')));
@@ -65,7 +74,7 @@ function openItem(id){
   const photos=(item.images&&item.images.length?item.images:[item.image]).filter(Boolean);
   setModalImage(photos[0]||'assets/big-star-hero.jpg',item.title,0);
   const thumbs=document.getElementById('modalThumbs');
-  thumbs.innerHTML=photos.length>1?photos.map((src,i)=>`<button class="modal-thumb ${i===0?'active':''}" type="button" data-photo-index="${i}" aria-label="View photo ${i+1}"><img src="${src}" alt="" onerror="fallbackImage(this)"></button>`).join(''):'';
+  thumbs.innerHTML=photos.length>1?photos.map((src,i)=>`<button class="modal-thumb ${i===0?'active':''}" type="button" data-photo-index="${i}" aria-label="View photo ${i+1}"><img loading="lazy" decoding="async" src="${src}" alt="" onerror="fallbackImage(this)"></button>`).join(''):'';
   thumbs.querySelectorAll('.modal-thumb').forEach(btn=>btn.addEventListener('click',()=>setModalImage(photos[Number(btn.dataset.photoIndex)],item.title,Number(btn.dataset.photoIndex))));
   document.getElementById('modalCategory').textContent=item.category;
   document.getElementById('modalTitle').textContent=item.title;
