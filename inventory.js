@@ -12,7 +12,11 @@ const INVENTORY = [
     "type": "Drum Mulcher",
     "price": 8125,
     "status": "Available",
-    "image": "assets/images/inventory/raytree-rmbd72st.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8511-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8511-1.webp",
+        "assets/images/inventory/photo-update-aug14/8511-2.webp"
+    ],
     "serial": "DRM202606202771",
     "details": [
       "Brand new / unused",
@@ -32,7 +36,10 @@ const INVENTORY = [
     "type": "Drum Mulcher",
     "price": 7065,
     "status": "Available",
-    "image": "assets/images/inventory/raytree-rmbd50.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8529-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8529-1.webp"
+    ],
     "serial": "LM202606201931",
     "details": [
       "Brand new / unused",
@@ -52,7 +59,10 @@ const INVENTORY = [
     "type": "Excavator Mulcher",
     "price": 5315,
     "status": "Available",
-    "image": "assets/images/inventory/raytree-redm32.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8533-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8533-1.webp"
+    ],
     "serial": "EBD202606231501",
     "details": [
       "Brand new / unused",
@@ -71,7 +81,12 @@ const INVENTORY = [
     "type": "Power Rake",
     "price": 3690,
     "status": "Available",
-    "image": "assets/images/inventory/raytree-rmsc78.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8540-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8540-1.webp",
+        "assets/images/inventory/photo-update-aug14/8540-2.webp",
+        "assets/images/inventory/photo-update-aug14/8540-3.webp"
+    ],
     "serial": "SC202606201998",
     "details": [
       "Brand new / unused",
@@ -91,7 +106,10 @@ const INVENTORY = [
     "type": "Hydraulic Hammer",
     "price": 2495,
     "status": "Available",
-    "image": "assets/images/inventory/raytree-rmh860.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8541-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8541-1.webp"
+    ],
     "serial": "HH20260620882",
     "details": [
       "Brand new / unused",
@@ -149,7 +167,10 @@ const INVENTORY = [
     "type": "Auger",
     "price": 1695,
     "status": "Available",
-    "image": "assets/images/inventory/excavator-auger.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8154-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8154-1.webp"
+    ],
     "serial": "",
     "details": [
       "Brand new / unused",
@@ -169,7 +190,12 @@ const INVENTORY = [
     "type": "5th Wheel Tow Hitch",
     "price": 7500,
     "status": "Available",
-    "image": "assets/images/inventory/tow-hitch.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/8156-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/8156-1.webp",
+        "assets/images/inventory/photo-update-aug14/8156-2.webp",
+        "assets/images/inventory/photo-update-aug14/8156-3.webp"
+    ],
     "serial": "KCTC2605105",
     "details": [
       "Brand new / unused",
@@ -189,7 +215,10 @@ const INVENTORY = [
     "type": "Pin Press",
     "price": 1875,
     "status": "Available",
-    "image": "assets/images/inventory/track-pin-press.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/7993-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/7993-1.webp"
+    ],
     "serial": "",
     "details": [
       "Hydraulic track pin press",
@@ -209,7 +238,11 @@ const INVENTORY = [
     "type": "Sand Blaster",
     "price": 3000,
     "status": "Available",
-    "image": "assets/images/inventory/sand-blaster.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/7829-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/7829-1.webp",
+        "assets/images/inventory/photo-update-aug14/7829-2.webp"
+    ],
     "serial": "",
     "details": [
       "JCT sand blasting machine",
@@ -248,7 +281,10 @@ const INVENTORY = [
     "type": "Water Pump",
     "price": 595,
     "status": "Available",
-    "image": "assets/images/inventory/water-pump.jpg",
+    "image": "assets/images/inventory/photo-update-aug14/7902-1.webp",
+    "images": [
+        "assets/images/inventory/photo-update-aug14/7902-1.webp"
+    ],
     "serial": "",
     "details": [
       "Portable water pump",
@@ -1021,5 +1057,105 @@ const INVENTORY = [
       "Call with your excavator make, model, weight class and hydraulic flow to confirm fitment",
       "Delivery available"
     ]
-  }
+  },
+{
+  "id": "newrick-n60-2025",
+  "title": "2025 Newrick N60 Excavator – 6 Ton – Yanmar Diesel – Enclosed Cab",
+  "category": "Excavators",
+  "type": "Excavator",
+  "price": 29000,
+  "discount": 10,
+  "status": "Available",
+  "image": "assets/inventory/newrick-n60/newrick-n60-01.jpg",
+  "images": [
+    "assets/inventory/newrick-n60/newrick-n60-01.jpg",
+    "assets/inventory/newrick-n60/newrick-n60-02.jpg",
+    "assets/inventory/newrick-n60/newrick-n60-03.jpg",
+    "assets/inventory/newrick-n60/newrick-n60-04.jpg",
+    "assets/inventory/newrick-n60/newrick-n60-05.jpg"
+  ],
+  "serial": "",
+  "details": [
+    "Very clean / ready to work",
+    "6-ton class excavator",
+    "Yanmar 3.3L diesel engine",
+    "42.4 kW / approximately 57 HP",
+    "Enclosed cab with A/C, heat and ventilation",
+    "Strong responsive hydraulic system",
+    "Auxiliary hydraulics for attachments",
+    "Standard digging bucket included",
+    "Steel tracks",
+    "Tight pins and bushings",
+    "Transport available"
+  ]
+},
+{
+  "id": "kylin-kn46-2026",
+  "title": "2026 KYLIN KN46 Mini Excavator – Kubota D1105 Diesel – Hydraulic Thumb",
+  "category": "Excavators",
+  "type": "Mini Excavator",
+  "price": 18000,
+  "discount": 10,
+  "status": "Available",
+  "image": "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
+  "images": [
+    "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
+    "assets/inventory/kylin-kn46/kylin-kn46-02.jpg",
+    "assets/inventory/kylin-kn46/kylin-kn46-03.jpg",
+    "assets/inventory/kylin-kn46/kylin-kn46-04.jpg",
+    "assets/inventory/kylin-kn46/kylin-kn46-05.jpg"
+  ],
+  "serial": "",
+  "details": [
+    "Brand new / ready to work",
+    "3-ton class mini excavator",
+    "Operating weight approximately 2,800 kg / 6,200 lb",
+    "Kubota D1105 diesel engine",
+    "25 HP",
+    "EPA compliant",
+    "Hydraulic thumb",
+    "Enclosed cab",
+    "Front dozer blade",
+    "Strong hydraulics and smooth controls",
+    "Transport available"
+  ]
+},
+{
+  "id": "john-deere-450k-lgp-2021",
+  "title": "2021 John Deere 450K LGP Dozer – 4,870 Hours – Ready to Work",
+  "category": "Dozers",
+  "type": "Dozer",
+  "price": 49000,
+  "discount": 8,
+  "status": "Available",
+  "image": "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
+  "images": [
+    "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-02.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-03.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-04.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-05.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-06.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-07.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-08.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-09.jpg",
+    "assets/inventory/john-deere-450k/john-deere-450k-10.jpg"
+  ],
+  "serial": "",
+  "details": [
+    "Used / excellent working condition",
+    "Approximately 4,870.1 hours shown on meter",
+    "LGP low-ground-pressure tracks",
+    "PAT 6-way blade",
+    "Hydrostatic transmission",
+    "Smooth joystick controls",
+    "John Deere diesel engine",
+    "Strong responsive hydraulics",
+    "Blade width approximately 114 inches",
+    "Track width approximately 24 inches",
+    "Good undercarriage with plenty of life remaining",
+    "No major leaks or excessive smoke reported",
+    "Transport available"
+  ]
+}
 ];
