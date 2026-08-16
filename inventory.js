@@ -1,6 +1,6 @@
 // =============================================================
 // BIG STAR MACHINERY - INVENTORY FILE
-// Updated August 16, 2026
+// Updated August 16, 2026 - final patch
 // Prices shown are SALE prices; website displays regular price + 25% OFF automatically.
 // =============================================================
 
@@ -241,19 +241,22 @@ const INVENTORY = [
     "title": "Wolverine 16-6T Mount Plate",
     "category": "Excavator Attachments",
     "type": "Mount Plate",
-    "price": 495,
+    "price": 265,
     "status": "Available",
-    "image": "assets/images/inventory/mount-plate.jpg",
+    "image": "assets/images/inventory/aug16-final/mount-plate-8383.jpg",
     "serial": "ZW-10591",
     "details": [
-      "Mounting plate",
-      "Call us to confirm fitment",
+      "Wolverine 16-6T excavator mount plate",
+      "Heavy steel mounting plate for excavator attachment setups",
+      "Fits approximately 16,000 lb to 6-ton class applications; confirm dimensions before purchase",
+      "Actual item photo shown",
       "Delivery available",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "A practical attachment/equipment option for excavation, land clearing, trenching and job-site work",
-      "Built to help contractors and property owners get more productivity from their equipment"
-    ]
+      "Call or text with your excavator model and pin dimensions to confirm fitment"
+    ],
+    "images": [
+      "assets/images/inventory/aug16-final/mount-plate-8383.jpg"
+    ],
+    "representativeImage": false
   },
   {
     "id": "7902",
@@ -508,6 +511,37 @@ const INVENTORY = [
     ]
   },
   {
+    "id": "aug16-final-rhbc72",
+    "title": "72\" Heavy-Duty 4-Blade Skid Steer Brush Cutter",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Brush Cutter",
+    "price": 4800,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16-final/rhbc72-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16-final/rhbc72-01.jpg",
+      "assets/images/inventory/aug16-final/rhbc72-02.jpg",
+      "assets/images/inventory/aug16-final/rhbc72-03.jpg",
+      "assets/images/inventory/aug16-final/rhbc72-04.jpg",
+      "assets/images/inventory/aug16-final/rhbc72-spec.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "72-inch heavy-duty skid steer 4-blade brush cutter",
+      "Model RHBC72",
+      "4 double-edge hardened blades",
+      "4/5-inch thick manganese steel blade carrier",
+      "Up to 3.5-inch listed cutting capacity",
+      "60 HP gearbox",
+      "72-inch cutting width",
+      "Hydraulic pressure: 3,050 PSI",
+      "Recommended hydraulic flow: 18–35 GPM",
+      "No case drain",
+      "Heavy-duty open-front design for brush, grass and vegetation clearing",
+      "Delivery available — call or text with your skid steer model to confirm fitment"
+    ]
+  },
+  {
     "id": "sheet-12",
     "title": "NEW AGT Skid Steer Flail Mower",
     "category": "Full-Size Skid Steer Attachments",
@@ -676,18 +710,24 @@ const INVENTORY = [
     "type": "Skid Steers",
     "price": 4875,
     "status": "Available",
-    "image": "https://images.unsplash.com/photo-1763516763181-4372f2987360?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "image": "assets/images/inventory/aug16-final/sda140t-01.jpg",
     "serial": "",
     "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "Compact, versatile equipment built for contractors, landscaping, farms and property maintenance",
-      "A strong choice when you need productive equipment that is easier to transport and maneuver"
+      "2026 AGT SDA140T mini compact track loader",
+      "Brand new / unused",
+      "Compact tracked design for landscaping, property maintenance and light construction",
+      "Front bucket included",
+      "Open operator station with canopy",
+      "Rubber tracks for maneuverability and reduced surface damage",
+      "Auxiliary hydraulic connections for compatible attachments",
+      "Easy to transport and operate in tight areas",
+      "Delivery available — call or text for a quote"
     ],
-    "representativeImage": true
+    "representativeImage": false,
+    "images": [
+      "assets/images/inventory/aug16-final/sda140t-01.jpg",
+      "assets/images/inventory/aug16-final/sda140t-02.jpg"
+    ]
   },
   {
     "id": "sheet-20",
@@ -823,46 +863,6 @@ const INVENTORY = [
       "assets/images/inventory/aug16/me15/me15-03.jpg",
       "assets/images/inventory/aug16/me15/me15-04.jpg"
     ]
-  },
-  {
-    "id": "sheet-25",
-    "title": "2026 CFG H13R Mini Excavator",
-    "category": "Excavators",
-    "type": "Excavators",
-    "price": 4875,
-    "status": "Available",
-    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
-    "serial": "",
-    "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "A practical attachment/equipment option for excavation, land clearing, trenching and job-site work",
-      "Built to help contractors and property owners get more productivity from their equipment"
-    ],
-    "representativeImage": true
-  },
-  {
-    "id": "sheet-26",
-    "title": "2026 CFG MH13RX Mini Excavator",
-    "category": "Excavators",
-    "type": "Excavators",
-    "price": 4875,
-    "status": "Available",
-    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
-    "serial": "",
-    "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "A practical attachment/equipment option for excavation, land clearing, trenching and job-site work",
-      "Built to help contractors and property owners get more productivity from their equipment"
-    ],
-    "representativeImage": true
   },
   {
     "id": "sheet-27",
@@ -1506,11 +1506,11 @@ const INVENTORY = [
     "type": "Skid Steer Bucket",
     "price": 1400,
     "status": "Available",
-    "image": "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
+    "image": "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
     "images": [
       "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
-      "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
-      "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg"
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg"
     ],
     "serial": "",
     "details": [

@@ -50,3 +50,7 @@
 .filter-button{
   cursor:pointer;
 }
+
+
+/* Monthly promotion — keeps the existing hero/background untouched */
+.monthly-promotion{background:#070707;border-bottom:1px solid #292929;padding:24px 0}.monthly-promotion-inner{max-width:var(--max);margin:auto;padding:0 34px;display:grid;grid-template-columns:minmax(250px,.65fr) minmax(420px,1.35fr);gap:28px;align-items:center}.monthly-promotion-copy{padding:18px 8px}.promo-kicker{display:inline-block;color:var(--gold2);font-size:13px;font-weight:1000;letter-spacing:1.6px}.monthly-promotion h2{font-size:38px;margin:8px 0 10px}.monthly-promotion p{color:#bbb;line-height:1.55;max-width:520px}.monthly-promotion img{width:100%;max-height:510px;object-fit:contain;background:#0b0b0b;border:1px solid #444;border-radius:8px;display:block}.promo-cta{display:inline-flex;margin-top:8px;min-height:46px;align-items:center;justify-content:center;background:var(--gold);color:#070707;font-weight:1000;padding:0 18px;border-radius:4px}@media(max-width:850px){.monthly-promotion-inner{grid-template-columns:1fr;padding:0 15px}.monthly-promotion-copy{padding:4px 0}.monthly-promotion h2{font-size:30px}.monthly-promotion img{max-height:none}}
