@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Star Machinery | Equipment & Attachments | Hempstead, TX</title>
+  <meta name="description" content="Big Star Machinery in Hempstead, Texas. Machinery, skid steers, excavators, attachments and more. Delivery available." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Big Star Machinery home">
+      <span class="brand-star">☆</span>
+      <span class="brand-words"><strong>BIG STAR</strong><small>MACHINERY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a class="active-nav" href="#top">HOME</a>
+      <a href="#inventory">INVENTORY</a>
+      <a href="#inventory">ATTACHMENTS</a>
+      <a href="#about">ABOUT US</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-phones">
+      <a href="tel:8322136736">☎ (832) 213-6736</a>
+      <a href="tel:8326140914">☎ (832) 614-0914</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <h1><span>BUILT TO GET</span><strong>THE JOB DONE.</strong></h1>
+        <div class="hero-subline">QUALITY MACHINES.</div>
+        <div class="hero-subline">FAIR PRICES. REAL RESULTS.</div>
+        <div class="hero-badges">
+          <span>◈ <b>QUALITY</b><small>EQUIPMENT</small></span>
+          <span>◇ <b>FAIR</b><small>PRICES</small></span>
+          <span>🤝 <b>BUILT ON</b><small>TRUST</small></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="monthly-promotion" aria-label="Monthly promotion">
+      <div class="monthly-promotion-inner">
+        <div class="monthly-promotion-copy">
+          <span class="promo-kicker">MONTHLY SPECIAL • HAPPENING NOW</span>
+          <h2>Featured Big Star Deal</h2>
+          <p>Limited-time featured promotion. Call or text us for availability and attachment options.</p>
+          <a class="promo-cta" href="sms:8322136736">TEXT US ABOUT THIS DEAL</a>
+        </div>
+        <img src="assets/images/promotions/august-monthly-special.png" alt="Big Star Machinery monthly promotion" />
+      </div>
+    </section>
+
+    <section class="filter-shell" id="inventory">
+      <div class="filter-row">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Search inventory by model, type, category, or serial..." />
+        </label>
+        <select id="categorySelect" aria-label="Category"><option value="All">All Categories</option></select>
+        <select id="typeSelect" aria-label="Type"><option value="All">All Types</option></select>
+        <select id="conditionSelect" aria-label="Condition">
+          <option value="All">All Conditions</option>
+          <option value="Available">Available</option>
+          <option value="Sold">Sold</option>
+        </select>
+        <button class="filter-button" id="filterButton">☰ FILTER</button>
+      </div>
+    </section>
+
+    <section class="inventory-section">
+      <div class="inventory-title-row">
+        <h2>🏗 INVENTORY</h2>
+        <div>Showing: <strong id="count">0</strong> items</div>
+      </div>
+      <div class="inventory-grid" id="inventoryGrid"></div>
+      <div class="no-results" id="noResults" hidden>No inventory matches your search.</div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div>
+        <span class="eyebrow">ABOUT BIG STAR MACHINERY</span>
+        <h2>Quality new equipment. Prices built to help you grow.</h2>
+        <p>At <strong>Big Star Machinery</strong>, our goal is simple: quality new equipment at some of the best prices in the market.</p>
+        <p>We believe getting the right machine should not cost more than it needs to. Whether you are starting a business, growing your fleet, or need the right attachment for your next job, we are here to help you <strong>get the job done right and keep growing.</strong></p>
+        <p>We offer brand-new machinery, skid steers, excavators, attachments, and more, with delivery available.</p>
+      </div>
+      <div class="about-points">
+        <span>✓ Brand-new equipment</span>
+        <span>✓ Competitive market pricing</span>
+        <span>✓ Delivery available</span>
+        <span>✓ Call or text sales</span>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>CALL OR TEXT US</h2>
+      <div class="contact-grid">
+        <a href="tel:8322136736"><small>SALES</small><strong>(832) 213-6736</strong></a>
+        <a href="tel:8326140914"><small>SALES</small><strong>(832) 614-0914</strong></a>
+        <a href="tel:7135173399"><small>CUSTOMER SERVICE</small><strong>(713) 517-3399</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>Big Star Machinery • Hempstead, Texas • Delivery Available</footer>
+
+  <div class="modal" id="itemModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-gallery">
+        <img id="modalImage" class="modal-main-image" alt="" />
+        <div id="modalThumbs" class="modal-thumbs"></div>
+      </div>
+      <div class="modal-body">
+        <span id="modalCategory" class="modal-category"></span>
+        <h2 id="modalTitle"></h2>
+        <div id="modalPrice" class="modal-price"></div>
+        <ul id="modalDetails"></ul>
+        <div id="modalMeta" class="modal-meta"></div>
+        <div class="modal-actions">
+          <a class="btn-outline" href="tel:8322136736">CALL SALES</a>
+          <a class="btn-gold" id="modalText" href="sms:8322136736">TEXT ABOUT THIS ITEM</a>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script src="inventory.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
