@@ -17,6 +17,9 @@ fillSelect(typeSelect,uniqueValues('type'));
 
 function regularFromSale(sale){return sale/0.75;}
 function priceHTML(item){
+  if(typeof item.price!=='number' || !Number.isFinite(item.price) || item.price<=0){
+    return `<div class="price-stack call-price"><div class="sale-label">PRICING</div><div class="sale-price">CALL OR TEXT</div></div>`;
+  }
   const regular=regularFromSale(item.price);
   return `<div class="price-stack"><div class="price-topline"><span class="regular-price">${money.format(regular)}</span><span class="discount-badge">25% OFF</span></div><div class="sale-label">SALE PRICE</div><div class="sale-price">${money.format(item.price)}</div></div>`;
 }

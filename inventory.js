@@ -1,7 +1,7 @@
 // =============================================================
 // BIG STAR MACHINERY - INVENTORY FILE
-// Updated: no duplicate customer listings, no quantity counts.
-// Edit price/title/details here. Add photos in assets/images/inventory.
+// Updated August 16, 2026
+// Prices shown are SALE prices; website displays regular price + 25% OFF automatically.
 // =============================================================
 
 const INVENTORY = [
@@ -14,8 +14,8 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8511-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8511-1.webp",
-        "assets/images/inventory/photo-update-aug14/8511-2.webp"
+      "assets/images/inventory/photo-update-aug14/8511-1.webp",
+      "assets/images/inventory/photo-update-aug14/8511-2.webp"
     ],
     "serial": "DRM202606202771",
     "details": [
@@ -38,7 +38,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8529-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8529-1.webp"
+      "assets/images/inventory/photo-update-aug14/8529-1.webp"
     ],
     "serial": "LM202606201931",
     "details": [
@@ -61,7 +61,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8533-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8533-1.webp"
+      "assets/images/inventory/photo-update-aug14/8533-1.webp"
     ],
     "serial": "EBD202606231501",
     "details": [
@@ -83,9 +83,9 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8540-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8540-1.webp",
-        "assets/images/inventory/photo-update-aug14/8540-2.webp",
-        "assets/images/inventory/photo-update-aug14/8540-3.webp"
+      "assets/images/inventory/photo-update-aug14/8540-1.webp",
+      "assets/images/inventory/photo-update-aug14/8540-2.webp",
+      "assets/images/inventory/photo-update-aug14/8540-3.webp"
     ],
     "serial": "SC202606201998",
     "details": [
@@ -108,7 +108,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8541-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8541-1.webp"
+      "assets/images/inventory/photo-update-aug14/8541-1.webp"
     ],
     "serial": "HH20260620882",
     "details": [
@@ -142,25 +142,6 @@ const INVENTORY = [
     ]
   },
   {
-    "id": "8220",
-    "title": "Wolverine Mini Skid Steer Stump Grapple",
-    "category": "Mini Skid Steer Attachments",
-    "type": "Stump Grapple",
-    "price": 1495,
-    "status": "Available",
-    "image": "assets/images/inventory/mini-stump-grapple.jpg",
-    "serial": "ZW-00646",
-    "details": [
-      "Brand new / unused",
-      "Mini skid steer attachment",
-      "Stump / root grapple",
-      "Delivery available",
-      "Call or text with your machine model to confirm fitment",
-      "Built to add more capability and productivity to your skid steer on demanding jobs",
-      "Great for contractors, farms, ranches, landscaping crews and property maintenance"
-    ]
-  },
-  {
     "id": "8154",
     "title": "Excavator Auger B-303TZLXZ-94",
     "category": "Excavator Attachments",
@@ -169,7 +150,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8154-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8154-1.webp"
+      "assets/images/inventory/photo-update-aug14/8154-1.webp"
     ],
     "serial": "",
     "details": [
@@ -192,9 +173,9 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/8156-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/8156-1.webp",
-        "assets/images/inventory/photo-update-aug14/8156-2.webp",
-        "assets/images/inventory/photo-update-aug14/8156-3.webp"
+      "assets/images/inventory/photo-update-aug14/8156-1.webp",
+      "assets/images/inventory/photo-update-aug14/8156-2.webp",
+      "assets/images/inventory/photo-update-aug14/8156-3.webp"
     ],
     "serial": "KCTC2605105",
     "details": [
@@ -217,7 +198,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/7993-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/7993-1.webp"
+      "assets/images/inventory/photo-update-aug14/7993-1.webp"
     ],
     "serial": "",
     "details": [
@@ -240,8 +221,8 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/7829-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/7829-1.webp",
-        "assets/images/inventory/photo-update-aug14/7829-2.webp"
+      "assets/images/inventory/photo-update-aug14/7829-1.webp",
+      "assets/images/inventory/photo-update-aug14/7829-2.webp"
     ],
     "serial": "",
     "details": [
@@ -283,7 +264,7 @@ const INVENTORY = [
     "status": "Available",
     "image": "assets/images/inventory/photo-update-aug14/7902-1.webp",
     "images": [
-        "assets/images/inventory/photo-update-aug14/7902-1.webp"
+      "assets/images/inventory/photo-update-aug14/7902-1.webp"
     ],
     "serial": "",
     "details": [
@@ -439,21 +420,22 @@ const INVENTORY = [
     "title": "NEW Wolverine Skid Steer Tiller",
     "category": "Full-Size Skid Steer Attachments",
     "type": "Full-Size Skid Steer Attachments",
-    "price": 1488,
+    "price": 1688,
     "status": "Available",
-    "image": "assets/images/inventory/mount-plate.jpg",
+    "image": "assets/images/inventory/aug16/wolverine-tiller/wolverine-tiller-01.webp",
     "serial": "",
     "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
+      "New Wolverine skid steer tiller attachment",
+      "Heavy-duty hydraulic tiller for soil preparation, landscaping and property work",
+      "Skid steer quick-attach style mounting",
+      "Great for breaking up compacted soil, seed-bed preparation and mixing topsoil",
       "Delivery available",
-      "Call or text with your machine model to confirm fitment",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "Built to add more capability and productivity to your skid steer on demanding jobs",
-      "Great for contractors, farms, ranches, landscaping crews and property maintenance"
+      "Call or text with your skid steer model to confirm hydraulic compatibility"
     ],
-    "representativeImage": true
+    "representativeImage": false,
+    "images": [
+      "assets/images/inventory/aug16/wolverine-tiller/wolverine-tiller-01.webp"
+    ]
   },
   {
     "id": "sheet-8",
@@ -559,7 +541,7 @@ const INVENTORY = [
     "type": "Towing & Recovery",
     "price": 8000,
     "status": "Available",
-    "image": "assets/images/inventory/tow-hitch.jpg",
+    "image": "assets/images/inventory/aug16/fw80/fw80-01.webp",
     "serial": "",
     "details": [
       "Available inventory",
@@ -570,7 +552,12 @@ const INVENTORY = [
       "Heavy-duty towing and recovery equipment built for commercial work",
       "A practical setup for equipment yards, transport operations and recovery work"
     ],
-    "representativeImage": true
+    "representativeImage": false,
+    "images": [
+      "assets/images/inventory/aug16/fw80/fw80-01.webp",
+      "assets/images/inventory/aug16/fw80/fw80-02.webp",
+      "assets/images/inventory/aug16/fw80/fw80-03.webp"
+    ]
   },
   {
     "id": "sheet-14",
@@ -588,41 +575,6 @@ const INVENTORY = [
       "assets/images/inventory/golf-carts/red-6-display.jpg",
       "assets/images/inventory/golf-carts/red-6-6.jpg",
       "assets/images/inventory/golf-carts/red-6-7.jpg"
-    ],
-    "serial": "",
-    "details": [
-      "6-passenger seating",
-      "Brand new / unused",
-      "Fully loaded luxury electric golf cart",
-      "Off-road tires with premium alloy-style wheels",
-      "Touchscreen LCD display with Bluetooth, radio and USB controls",
-      "Built-in speaker / audio system",
-      "Luxury quilted seating",
-      "LED headlights and modern lighting package",
-      "Front brush guard and front storage basket",
-      "Extended roof for passenger coverage",
-      "Side mirrors and passenger grab handles",
-      "Rear flip seat / utility platform",
-      "Great for ranches, properties, neighborhoods, events, resorts, warehouses and recreation",
-      "Delivery available — call or text for a quote",
-      "Premium appearance with practical features for properties, neighborhoods, events and recreation",
-      "Built to combine comfort, utility and a loaded custom look"
-    ]
-  },
-  {
-    "id": "sheet-15",
-    "title": "NEW Fully Loaded 6-Seater Luxury Golf Cart - Black",
-    "category": "Golf Carts",
-    "type": "6-Seater Golf Cart",
-    "price": 8500,
-    "status": "Available",
-    "image": "assets/images/inventory/golf-carts/black-6-main.jpg",
-    "images": [
-      "assets/images/inventory/golf-carts/black-6-main.jpg",
-      "assets/images/inventory/golf-carts/black-6-2.jpg",
-      "assets/images/inventory/golf-carts/black-6-3.jpg",
-      "assets/images/inventory/golf-carts/black-6-4.jpg",
-      "assets/images/inventory/golf-carts/black-6-5.jpg"
     ],
     "serial": "",
     "details": [
@@ -848,21 +800,29 @@ const INVENTORY = [
     "id": "sheet-24",
     "title": "2026 ME15 Gasoline Mini Excavator",
     "category": "Excavators",
-    "type": "Excavators",
+    "type": "Mini Excavator",
     "price": 4875,
     "status": "Available",
-    "image": "https://images.unsplash.com/photo-1495036019936-220b29b930ea?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=70&w=1400",
+    "image": "assets/images/inventory/aug16/me15/me15-01.jpg",
     "serial": "",
     "details": [
-      "New / unused",
-      "Representative category photo; actual item may vary",
-      "Delivery available",
-      "Built for contractors, farms, ranches, landscaping and property maintenance",
-      "Ready to work — call or text for current availability",
-      "A practical attachment/equipment option for excavation, land clearing, trenching and job-site work",
-      "Built to help contractors and property owners get more productivity from their equipment"
+      "Brand new 2026 ME15 gasoline mini excavator",
+      "Zero-hour machine / ready to work",
+      "Compact gasoline-powered mini excavator",
+      "Rubber tracks for easy transport and reduced surface damage",
+      "Front dozer blade",
+      "Digging bucket with hydraulic thumb / grapple-style clamp",
+      "Open canopy with simple operator controls",
+      "Great for trenching, landscaping, fencing, drainage and property work",
+      "Delivery available"
     ],
-    "representativeImage": true
+    "representativeImage": false,
+    "images": [
+      "assets/images/inventory/aug16/me15/me15-01.jpg",
+      "assets/images/inventory/aug16/me15/me15-02.jpg",
+      "assets/images/inventory/aug16/me15/me15-03.jpg",
+      "assets/images/inventory/aug16/me15/me15-04.jpg"
+    ]
   },
   {
     "id": "sheet-25",
@@ -1058,104 +1018,533 @@ const INVENTORY = [
       "Delivery available"
     ]
   },
-{
-  "id": "newrick-n60-2025",
-  "title": "2025 Newrick N60 Excavator – 6 Ton – Yanmar Diesel – Enclosed Cab",
-  "category": "Excavators",
-  "type": "Excavator",
-  "price": 29000,
-  "discount": 10,
-  "status": "Available",
-  "image": "assets/inventory/newrick-n60/newrick-n60-01.jpg",
-  "images": [
-    "assets/inventory/newrick-n60/newrick-n60-01.jpg",
-    "assets/inventory/newrick-n60/newrick-n60-02.jpg",
-    "assets/inventory/newrick-n60/newrick-n60-03.jpg",
-    "assets/inventory/newrick-n60/newrick-n60-04.jpg",
-    "assets/inventory/newrick-n60/newrick-n60-05.jpg"
-  ],
-  "serial": "",
-  "details": [
-    "Very clean / ready to work",
-    "6-ton class excavator",
-    "Yanmar 3.3L diesel engine",
-    "42.4 kW / approximately 57 HP",
-    "Enclosed cab with A/C, heat and ventilation",
-    "Strong responsive hydraulic system",
-    "Auxiliary hydraulics for attachments",
-    "Standard digging bucket included",
-    "Steel tracks",
-    "Tight pins and bushings",
-    "Transport available"
-  ]
-},
-{
-  "id": "kylin-kn46-2026",
-  "title": "2026 KYLIN KN46 Mini Excavator – Kubota D1105 Diesel – Hydraulic Thumb",
-  "category": "Excavators",
-  "type": "Mini Excavator",
-  "price": 18000,
-  "discount": 10,
-  "status": "Available",
-  "image": "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
-  "images": [
-    "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
-    "assets/inventory/kylin-kn46/kylin-kn46-02.jpg",
-    "assets/inventory/kylin-kn46/kylin-kn46-03.jpg",
-    "assets/inventory/kylin-kn46/kylin-kn46-04.jpg",
-    "assets/inventory/kylin-kn46/kylin-kn46-05.jpg"
-  ],
-  "serial": "",
-  "details": [
-    "Brand new / ready to work",
-    "3-ton class mini excavator",
-    "Operating weight approximately 2,800 kg / 6,200 lb",
-    "Kubota D1105 diesel engine",
-    "25 HP",
-    "EPA compliant",
-    "Hydraulic thumb",
-    "Enclosed cab",
-    "Front dozer blade",
-    "Strong hydraulics and smooth controls",
-    "Transport available"
-  ]
-},
-{
-  "id": "john-deere-450k-lgp-2021",
-  "title": "2021 John Deere 450K LGP Dozer – 4,870 Hours – Ready to Work",
-  "category": "Dozers",
-  "type": "Dozer",
-  "price": 49000,
-  "discount": 8,
-  "status": "Available",
-  "image": "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
-  "images": [
-    "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-02.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-03.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-04.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-05.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-06.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-07.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-08.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-09.jpg",
-    "assets/inventory/john-deere-450k/john-deere-450k-10.jpg"
-  ],
-  "serial": "",
-  "details": [
-    "Used / excellent working condition",
-    "Approximately 4,870.1 hours shown on meter",
-    "LGP low-ground-pressure tracks",
-    "PAT 6-way blade",
-    "Hydrostatic transmission",
-    "Smooth joystick controls",
-    "John Deere diesel engine",
-    "Strong responsive hydraulics",
-    "Blade width approximately 114 inches",
-    "Track width approximately 24 inches",
-    "Good undercarriage with plenty of life remaining",
-    "No major leaks or excessive smoke reported",
-    "Transport available"
-  ]
-}
+  {
+    "id": "newrick-n60-2025",
+    "title": "2025 Newrick N60 Excavator – 6 Ton – Yanmar Diesel – Enclosed Cab",
+    "category": "Excavators",
+    "type": "Excavator",
+    "price": 29000,
+    "discount": 10,
+    "status": "Available",
+    "image": "assets/inventory/newrick-n60/newrick-n60-01.jpg",
+    "images": [
+      "assets/inventory/newrick-n60/newrick-n60-01.jpg",
+      "assets/inventory/newrick-n60/newrick-n60-02.jpg",
+      "assets/inventory/newrick-n60/newrick-n60-03.jpg",
+      "assets/inventory/newrick-n60/newrick-n60-04.jpg",
+      "assets/inventory/newrick-n60/newrick-n60-05.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Very clean / ready to work",
+      "6-ton class excavator",
+      "Yanmar 3.3L diesel engine",
+      "42.4 kW / approximately 57 HP",
+      "Enclosed cab with A/C, heat and ventilation",
+      "Strong responsive hydraulic system",
+      "Auxiliary hydraulics for attachments",
+      "Standard digging bucket included",
+      "Steel tracks",
+      "Tight pins and bushings",
+      "Transport available"
+    ]
+  },
+  {
+    "id": "kylin-kn46-2026",
+    "title": "2026 KYLIN KN46 Mini Excavator – Kubota D1105 Diesel – Hydraulic Thumb",
+    "category": "Excavators",
+    "type": "Mini Excavator",
+    "price": 18000,
+    "discount": 10,
+    "status": "Available",
+    "image": "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
+    "images": [
+      "assets/inventory/kylin-kn46/kylin-kn46-01.jpg",
+      "assets/inventory/kylin-kn46/kylin-kn46-02.jpg",
+      "assets/inventory/kylin-kn46/kylin-kn46-03.jpg",
+      "assets/inventory/kylin-kn46/kylin-kn46-04.jpg",
+      "assets/inventory/kylin-kn46/kylin-kn46-05.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Brand new / ready to work",
+      "3-ton class mini excavator",
+      "Operating weight approximately 2,800 kg / 6,200 lb",
+      "Kubota D1105 diesel engine",
+      "25 HP",
+      "EPA compliant",
+      "Hydraulic thumb",
+      "Enclosed cab",
+      "Front dozer blade",
+      "Strong hydraulics and smooth controls",
+      "Transport available"
+    ]
+  },
+  {
+    "id": "john-deere-450k-lgp-2021",
+    "title": "2021 John Deere 450K LGP Dozer – 4,870 Hours – Ready to Work",
+    "category": "Dozers",
+    "type": "Dozer",
+    "price": 49000,
+    "discount": 8,
+    "status": "Available",
+    "image": "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
+    "images": [
+      "assets/inventory/john-deere-450k/john-deere-450k-01.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-02.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-03.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-04.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-05.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-06.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-07.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-08.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-09.jpg",
+      "assets/inventory/john-deere-450k/john-deere-450k-10.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Used / excellent working condition",
+      "Approximately 4,870.1 hours shown on meter",
+      "LGP low-ground-pressure tracks",
+      "PAT 6-way blade",
+      "Hydrostatic transmission",
+      "Smooth joystick controls",
+      "John Deere diesel engine",
+      "Strong responsive hydraulics",
+      "Blade width approximately 114 inches",
+      "Track width approximately 24 inches",
+      "Good undercarriage with plenty of life remaining",
+      "No major leaks or excessive smoke reported",
+      "Transport available"
+    ]
+  },
+  {
+    "id": "aug16-cat-352f",
+    "title": "2019 CAT 352F Excavator",
+    "category": "Excavators",
+    "type": "Full-Size Excavator",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/cat-352f/cat-352f-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/cat-352f/cat-352f-01.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-02.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-03.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-04.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-05.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-06.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-07.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-08.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-09.jpg",
+      "assets/images/inventory/aug16/cat-352f/cat-352f-10.jpg"
+    ],
+    "serial": "CAT0352FCA9J20032",
+    "details": [
+      "Text or call for pricing",
+      "12,332 hours",
+      "Strong and clean machine that starts easy, tracks straight and operates very well",
+      "Strong, smooth hydraulics with plenty of power",
+      "Enclosed cab with heat and A/C",
+      "11 ft stick",
+      "36 inch track pads",
+      "72 inch digging bucket",
+      "Quick coupler ready",
+      "CAT diesel engine",
+      "Removable counterweight",
+      "Built for land clearing, mass excavation, pond digging, demolition, pipeline work, site prep, and heavy dirt or rock work",
+      "Reasonable transportation rate available",
+      "Located in Brookshire, TX"
+    ]
+  },
+  {
+    "id": "aug16-suntop-g500",
+    "title": "SUNTOP G500 500 Ft Commercial Galvanized Chain Link Fence Package",
+    "category": "Other Equipment",
+    "type": "Chain Link Fence",
+    "price": 6500,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/suntop-g500/suntop-g500-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/suntop-g500/suntop-g500-01.jpg",
+      "assets/images/inventory/aug16/suntop-g500/suntop-g500-02.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Unused commercial / industrial chain link fence package",
+      "500 linear feet plus two gates — approximately 516 feet total",
+      "7 ft chain link fence; approximately 8 ft total height with barbed-wire top",
+      "Hot-dipped galvanized pipe, fence, wire and brackets",
+      "Includes 46 line posts, 8 corner/gate posts and 49 top rails",
+      "10 rolls of 7 ft x 50 ft chain-link mesh",
+      "2 rolls / 1,500 ft of barbed wire",
+      "Barbed-wire arms: 42 single and 4 double",
+      "Includes tension bars, tie wire, tension wire, connectors, bands and hardware",
+      "Two gate sets approximately 2 m high x 2.5 m wide with hardware",
+      "Complete package for commercial yards, industrial sites, storage properties and security fencing"
+    ]
+  },
+  {
+    "id": "aug16-wolverine-trencher",
+    "title": "Wolverine TCR 12-48N 48\" Skid Steer Trencher",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Trencher",
+    "price": 2800,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-02.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-03.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-04.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "New skid steer trencher attachment",
+      "Model TCR 12-48N",
+      "Up to 48 inch trenching depth",
+      "8 inch trenching width",
+      "15 inch clearing auger diameter",
+      "Recommended hydraulic flow: 20–32 GPM",
+      "Shipping weight approximately 890 lbs",
+      "Built for water lines, cable, drainage, irrigation, fencing and utility work",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  },
+  {
+    "id": "aug16-landscape-rake",
+    "title": "Wolverine CHM72 Hydraulic Landscape Rake",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Landscape Rake",
+    "price": 2100,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/landscape-rake/landscape-rake-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-01.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-02.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-03.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-04.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-05.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-06.jpg",
+      "assets/images/inventory/aug16/landscape-rake/landscape-rake-07.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "New hydraulic landscape rake / soil preparation attachment",
+      "Model CHM72",
+      "Designed to break up soil, level material and collect rocks and debris",
+      "Hydraulic opening / loading arm for dumping collected material",
+      "Approx. 75.4 in long x 64.2 in wide x 39.2 in high",
+      "Approx. 1,422 lb total weight",
+      "Great for landscaping, grading, seed-bed preparation and property cleanup",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  },
+  {
+    "id": "aug16-skid-stump-grinder",
+    "title": "Skid Steer Hydraulic Stump Grinder Attachment",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Stump Grinder",
+    "price": 2400,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-01.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-02.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-03.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-04.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "New hydraulic stump grinder attachment",
+      "Skid steer quick-attach mounting plate",
+      "Hydraulic drive with hoses included",
+      "Heavy cutting wheel for stump removal and property clearing",
+      "Great for contractors, landscaping crews, ranches and land clearing",
+      "Delivery available",
+      "Call or text with your machine model to confirm hydraulic fitment"
+    ]
+  },
+  {
+    "id": "aug16-post-driver",
+    "title": "Handy HPD680 Skid Steer Post Driver",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Post Driver",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/post-driver/post-driver-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/post-driver/post-driver-01.jpg",
+      "assets/images/inventory/aug16/post-driver/post-driver-02.jpg",
+      "assets/images/inventory/aug16/post-driver/post-driver-03.jpg",
+      "assets/images/inventory/aug16/post-driver/post-driver-04.jpg"
+    ],
+    "serial": "PD202603376",
+    "details": [
+      "Call or text for pricing",
+      "New Handy Attachments skid steer post driver",
+      "Model HPD680",
+      "Gross weight approximately 340 kg",
+      "Hydraulic post-driving attachment",
+      "Built for fence posts, ranch work, construction and property projects",
+      "Hoses and mounting frame included",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  },
+  {
+    "id": "aug16-mini-forks",
+    "title": "Mini Skid Steer Pallet Fork Attachment",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Pallet Forks",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/mini-forks/mini-forks-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/mini-forks/mini-forks-01.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Call or text for pricing",
+      "Mini skid steer pallet fork attachment",
+      "Compact fork frame for pallets, material handling and jobsite work",
+      "Heavy-duty steel fork tines",
+      "Great for farms, warehouses, landscaping and construction",
+      "Call or text with your mini skid steer model to confirm fitment",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-tree-puller",
+    "title": "Wolverine TB08 Hydraulic Tree Puller",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Tree Puller",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/tree-puller/tree-puller-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/tree-puller/tree-puller-01.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-02.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-03.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-04.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Call or text for pricing",
+      "Wolverine model TB08 hydraulic tree puller",
+      "Heavy serrated jaws for pulling trees, brush, roots and fence posts",
+      "Designed to grip material up to approximately 8 inches wide",
+      "Approx. 198 lb attachment weight",
+      "Approx. 31.3 in long x 54.2 in wide x 19.7 in high",
+      "Skid steer universal-style mounting",
+      "Hydraulic hose and coupler setup",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-mini-stump-grinder",
+    "title": "SZYMJ Mini Skid Steer Stump Grinder",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Stump Grinder",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-01.jpg",
+      "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-02.jpg",
+      "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-03.jpg",
+      "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-04.jpg",
+      "assets/images/inventory/aug16/mini-stump-grinder/mini-stump-grinder-05.jpg"
+    ],
+    "serial": "SZYMJ260521",
+    "details": [
+      "Call or text for pricing",
+      "Hydraulic stump grinder for mini skid steer loaders",
+      "Model SZYMJ",
+      "Speed range: 160–500 r/min",
+      "Maximum torque: 315 Nm",
+      "Working pressure: 10–22 MPa",
+      "Hydraulic hoses included",
+      "Compact attachment for stump removal and land clearing",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-mini-clamp-fork",
+    "title": "MHF44 Mini Hydraulic Horizontal Clamp Fork",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Clamp Fork",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-01.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-02.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-03.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-04.jpg"
+    ],
+    "serial": "X SPBC260427",
+    "details": [
+      "Call or text for pricing",
+      "Mini horizontal hydraulic clamp fork",
+      "Model MHF44",
+      "39 inch fork length",
+      "Opening range approximately 0.2–27.5 inches",
+      "Maximum clamping force: 5 kN",
+      "Working pressure: 10–22 MPa",
+      "Fits mini skid steer loaders",
+      "Great for gripping, carrying and handling irregular material",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-cat305-buckets",
+    "title": "CAT 305 Excavator Digging Buckets – 12\" & 24\"",
+    "category": "Excavator Attachments",
+    "type": "Digging Buckets",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/cat305-buckets/cat305-buckets-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/cat305-buckets/cat305-buckets-01.jpg",
+      "assets/images/inventory/aug16/cat305-buckets/cat305-buckets-02.jpg",
+      "assets/images/inventory/aug16/cat305-buckets/cat305-buckets-03.jpg",
+      "assets/images/inventory/aug16/cat305-buckets/cat305-buckets-04.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Call or text for pricing",
+      "Excavator digging buckets marked for CAT 305 fitment",
+      "12 inch bucket available",
+      "24 inch bucket available",
+      "Heavy-duty steel construction with replaceable bucket teeth",
+      "Great for trenching, utility work, drainage and general digging",
+      "Please confirm pin size / machine configuration before purchase",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-excavator-hedge-trimmer",
+    "title": "Hydraulic Excavator Hedge Trimmer Attachment",
+    "category": "Excavator Attachments",
+    "type": "Hedge Trimmer",
+    "price": null,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-01.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-02.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-03.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-04.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Call or text for pricing",
+      "Hydraulic hedge / brush trimmer attachment for excavators",
+      "Long reciprocating cutter bar",
+      "Designed for trimming hedges, brush, roadside vegetation and property lines",
+      "Hydraulic motor and hoses included",
+      "Compact excavator mounting bracket",
+      "Call or text with your excavator model and pin dimensions to confirm fitment",
+      "Delivery available"
+    ]
+  },
+  {
+    "id": "aug16-fork-extensions",
+    "title": "Pallet Fork Extensions 6 ft 6 in x 5.5 in – Pair",
+    "category": "Forklift & Fork Attachments",
+    "type": "Fork Extensions",
+    "price": 200,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-02.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-03.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Heavy-duty pallet fork extension pair",
+      "Approximately 6 ft 6 in long",
+      "Approximately 5.5 in wide",
+      "Rated illustration shows up to 4,600 lb application",
+      "Slip-on design extends existing forklift / loader fork reach",
+      "Great for long pallets, lumber and oversized loads",
+      "Sold as a pair",
+      "Confirm your fork dimensions before purchase"
+    ]
+  },
+  {
+    "id": "aug16-skid-bucket-80",
+    "title": "Wolverine 80\" Skid Steer Bucket",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Skid Steer Bucket",
+    "price": 1000,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "80 inch skid steer bucket",
+      "Heavy-duty steel construction",
+      "Universal skid steer quick-attach style mounting",
+      "Built for dirt, gravel, mulch, cleanup and general material handling",
+      "Multiple widths available: 80 in, 84 in and 86 in",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  },
+  {
+    "id": "aug16-skid-bucket-84",
+    "title": "Wolverine 84\" Skid Steer Bucket",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Skid Steer Bucket",
+    "price": 1400,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
+    "images": [
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "84 inch skid steer bucket",
+      "Heavy-duty steel construction",
+      "Universal skid steer quick-attach style mounting",
+      "Built for dirt, gravel, mulch, cleanup and general material handling",
+      "Multiple widths available: 80 in, 84 in and 86 in",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  },
+  {
+    "id": "aug16-skid-bucket-86",
+    "title": "Wolverine 86\" Skid Steer Bucket",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Skid Steer Bucket",
+    "price": 1800,
+    "status": "Available",
+    "image": "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg",
+    "images": [
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-01.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-02.jpg",
+      "assets/images/inventory/aug16/skid-buckets/skid-buckets-03.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "86 inch skid steer bucket",
+      "Heavy-duty steel construction",
+      "Universal skid steer quick-attach style mounting",
+      "Built for dirt, gravel, mulch, cleanup and general material handling",
+      "Multiple widths available: 80 in, 84 in and 86 in",
+      "Delivery available",
+      "Call or text with your machine model to confirm fitment"
+    ]
+  }
 ];

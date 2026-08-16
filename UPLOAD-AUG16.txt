@@ -1,0 +1,29 @@
+BIG STAR MACHINERY — AUGUST 16 INVENTORY UPDATE
+
+This folder is ready to replace/update the files in your GitHub repository.
+Important updated files:
+- inventory.js
+- script.js
+- assets/images/inventory/aug16/ (all new photos)
+- assets/inventory/ (Phase 2 machine photos)
+- assets/images/inventory/photo-update-aug14/ (Phase 3 photo updates)
+
+This update includes:
+- Updated ME15 photos/details and $4,875 sale price
+- Wolverine skid steer tiller photo and $1,688 sale price
+- Black 6-seat golf cart removed (sold)
+- Wolverine mini skid steer stump grapple removed
+- SUNTOP G500 fence package added at $6,500 sale price
+- 48-inch skid steer trencher added at $2,800 sale price
+- Landscape rake added at $2,100 sale price
+- Skid steer stump grinder added at $2,400 sale price
+- Post driver, mini forks, tree puller, mini stump grinder, mini clamp fork,
+  CAT 305 buckets and excavator hedge trimmer added as Call/Text for Pricing
+- FW80 listing photos updated
+- 2019 CAT 352F added as Call/Text for Pricing
+- Pallet fork extensions added at $200 sale price
+- 80/84/86-inch skid steer buckets added at $1,000 / $1,400 / $1,800 sale prices
+- Newrick N60, Kylin KN46 and John Deere 450K retained from the previous phase updates
+
+Do NOT upload the outer Big-Star-Machinery-main folder as a nested folder.
+Open this folder and upload its CONTENTS into the root of your GitHub repo.
