@@ -20,7 +20,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-2",
-    "title": "H13R Mini Excavator YELLOW",
+    "title": "H13R Mini Excavator — Yellow",
     "category": "Mini Excavators",
     "type": "Excavator YELLOW",
     "price": 3800,
@@ -54,7 +54,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-4",
-    "title": "Mini SSkid Steer Gas Stand-On",
+    "title": "Mini Skid Steer Gas Stand-On",
     "category": "Mini Skid Steers",
     "type": "Gas Stand-On",
     "price": 3800,
@@ -71,7 +71,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-5",
-    "title": "66 DRUM MULCHER",
+    "title": "66\" Drum Mulcher",
     "category": "Full-Size Skid Steer Attachments",
     "type": "DRUM MULCHER",
     "price": 3500,
@@ -98,14 +98,14 @@ const INVENTORY = [
     "images": [],
     "serial": "",
     "details": [
-      "Quantity available: 1",
+      "Quantity available: 2",
       "Model: DB-15-84W",
       "Contact us for availability and fitment"
     ]
   },
   {
     "id": "stock-7",
-    "title": "72\" Rake",
+    "title": "72\" Power Rake",
     "category": "Full-Size Skid Steer Attachments",
     "type": "72\" Rake",
     "price": 2100,
@@ -121,7 +121,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-8",
-    "title": "71\" Rake",
+    "title": "71\" Power Rake",
     "category": "Full-Size Skid Steer Attachments",
     "type": "71\" Rake",
     "price": 1900,
@@ -187,7 +187,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-12",
-    "title": "Excavator Disk Mulcher",
+    "title": "Excavator Disc Mulcher",
     "category": "Excavator Attachments",
     "type": "Disk Mulcher",
     "price": 1100,
@@ -288,7 +288,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-18",
-    "title": "Landscaping Rake",
+    "title": "Landscaping Power Rake",
     "category": "Full-Size Skid Steer Attachments",
     "type": "Landscaping Rake",
     "price": 1100,
@@ -1099,7 +1099,7 @@ const INVENTORY = [
     "images": [],
     "serial": "",
     "details": [
-      "Quantity available: 1",
+      "Quantity available: 2",
       "Contact us for availability and fitment"
     ]
   },
@@ -1357,7 +1357,7 @@ const INVENTORY = [
   },
   {
     "id": "stock-82",
-    "title": "72\" Power Rake",
+    "title": "72\" Power Power Rake",
     "category": "Full-Size Skid Steer Attachments",
     "type": "Power Rake",
     "price": 2800,
