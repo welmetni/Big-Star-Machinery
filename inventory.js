@@ -60,14 +60,19 @@ const INVENTORY = [
     "price": 3800,
     "status": "Available",
     "quantity": 2,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/gas-mini-skid-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/gas-mini-skid-1.jpg",
+      "assets/images/inventory/new-update/gas-mini-skid-2.jpg",
+      "assets/images/inventory/new-update/gas-mini-skid-3.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 2",
       "Model: MX-MRT14",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-5",
@@ -193,14 +198,17 @@ const INVENTORY = [
     "price": 1100,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/excavator-disc-mulcher-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/excavator-disc-mulcher-1.jpg"
+    ],
     "serial": "PTHJ0508",
     "details": [
       "Quantity available: 1",
       "Model: EDM320",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-13",
@@ -243,14 +251,18 @@ const INVENTORY = [
     "price": 3800,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16-final/sda140t-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16-final/sda140t-01.jpg",
+      "assets/images/inventory/aug16-final/sda140t-02.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: SDA140T",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-16",
@@ -260,14 +272,17 @@ const INVENTORY = [
     "price": 12900,
     "status": "Available",
     "quantity": 2,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/v1000/v1000-main.jpg",
+    "images": [
+      "assets/images/inventory/v1000/v1000-main.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 2",
       "Model: V1000",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-17",
@@ -277,14 +292,20 @@ const INVENTORY = [
     "price": 1850,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-02.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-03.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: Future",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-18",
@@ -311,14 +332,17 @@ const INVENTORY = [
     "price": 1790,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/skid-auger-3bit-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/skid-auger-3bit-1.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: ADB-13-1218R",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-20",
@@ -379,14 +403,19 @@ const INVENTORY = [
     "price": 3900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/fw80/fw80-01.webp",
+    "images": [
+      "assets/images/inventory/aug16/fw80/fw80-01.webp",
+      "assets/images/inventory/aug16/fw80/fw80-02.webp",
+      "assets/images/inventory/aug16/fw80/fw80-03.webp"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: TE31",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-24",
@@ -396,14 +425,19 @@ const INVENTORY = [
     "price": 3900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/fw80/fw80-01.webp",
+    "images": [
+      "assets/images/inventory/aug16/fw80/fw80-01.webp",
+      "assets/images/inventory/aug16/fw80/fw80-02.webp",
+      "assets/images/inventory/aug16/fw80/fw80-03.webp"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: FW80",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-25",
@@ -497,14 +531,18 @@ const INVENTORY = [
     "price": 1200,
     "status": "Available",
     "quantity": 3,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/agt-9pc-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/agt-9pc-1.jpg",
+      "assets/images/inventory/new-update/agt-9pc-2.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 3",
       "Model: 12EX-ATA",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-31",
@@ -578,13 +616,19 @@ const INVENTORY = [
     "price": 680,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-01.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-02.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-03.jpg",
+      "assets/images/inventory/aug16/excavator-hedge-trimmer/excavator-hedge-trimmer-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-36",
@@ -594,13 +638,19 @@ const INVENTORY = [
     "price": 590,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-01.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-02.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-03.jpg",
+      "assets/images/inventory/aug16/mini-clamp-fork/mini-clamp-fork-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-37",
@@ -627,14 +677,21 @@ const INVENTORY = [
     "price": 2600,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/arteer-concrete-mixer-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/arteer-concrete-mixer-1.jpg",
+      "assets/images/inventory/new-update/arteer-concrete-mixer-2.jpg",
+      "assets/images/inventory/new-update/arteer-concrete-mixer-3.jpg",
+      "assets/images/inventory/new-update/arteer-concrete-mixer-4.jpg",
+      "assets/images/inventory/new-update/arteer-concrete-mixer-5.jpg"
+    ],
     "serial": "2327",
     "details": [
       "Quantity available: 1",
       "Model: CM-300V",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-39",
@@ -644,14 +701,20 @@ const INVENTORY = [
     "price": 1400,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-01.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-02.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-03.jpg",
+      "assets/images/inventory/aug16/skid-stump-grinder/skid-stump-grinder-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: SG-45",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-40",
@@ -694,14 +757,21 @@ const INVENTORY = [
     "price": 1600,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/flail-mower-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/flail-mower-1.jpg",
+      "assets/images/inventory/new-update/flail-mower-2.jpg",
+      "assets/images/inventory/new-update/flail-mower-3.jpg",
+      "assets/images/inventory/new-update/flail-mower-4.jpg",
+      "assets/images/inventory/new-update/flail-mower-5.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: LE4",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-43",
@@ -762,14 +832,20 @@ const INVENTORY = [
     "price": 1900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-01.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-02.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-03.jpg",
+      "assets/images/inventory/aug16/wolverine-trencher/wolverine-trencher-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: Future",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-47",
@@ -796,13 +872,16 @@ const INVENTORY = [
     "price": 1200,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/mini-grapple-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/mini-grapple-1.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-49",
@@ -812,13 +891,18 @@ const INVENTORY = [
     "price": 150,
     "status": "Available",
     "quantity": 5,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-02.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-03.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 5",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-50",
@@ -828,13 +912,18 @@ const INVENTORY = [
     "price": 140,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-01.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-02.jpg",
+      "assets/images/inventory/aug16/fork-extensions/fork-extensions-03.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-51",
@@ -861,14 +950,17 @@ const INVENTORY = [
     "price": 595,
     "status": "Available",
     "quantity": 2,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/new-update/forks-48-1.jpg",
+    "images": [
+      "assets/images/inventory/new-update/forks-48-1.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 2",
       "Model: SA-48",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-53",
@@ -878,14 +970,17 @@ const INVENTORY = [
     "price": 900,
     "status": "Available",
     "quantity": 2,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/wolverine-tiller/wolverine-tiller-01.webp",
+    "images": [
+      "assets/images/inventory/aug16/wolverine-tiller/wolverine-tiller-01.webp"
+    ],
     "serial": "S#2W-00613",
     "details": [
       "Quantity available: 2",
       "Model: TL-12-72W",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-54",
@@ -912,14 +1007,20 @@ const INVENTORY = [
     "price": 700,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/tree-puller/tree-puller-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/tree-puller/tree-puller-01.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-02.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-03.jpg",
+      "assets/images/inventory/aug16/tree-puller/tree-puller-04.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: TB08",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-56",
@@ -995,14 +1096,17 @@ const INVENTORY = [
     "price": 12900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/v1000/v1000-main.jpg",
+    "images": [
+      "assets/images/inventory/v1000/v1000-main.jpg"
+    ],
     "serial": "F-1050K260744",
     "details": [
       "Quantity available: 1",
       "Model: SL-1050K",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-61",
@@ -1046,14 +1150,18 @@ const INVENTORY = [
     "price": 9500,
     "status": "Available",
     "quantity": 5,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/aug16/suntop-g500/suntop-g500-01.jpg",
+    "images": [
+      "assets/images/inventory/aug16/suntop-g500/suntop-g500-01.jpg",
+      "assets/images/inventory/aug16/suntop-g500/suntop-g500-02.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 5",
       "Model: G500",
       "Contact us for availability and fitment"
-    ]
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-64",
