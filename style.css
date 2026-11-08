@@ -57,3 +57,24 @@
 
 /* Current Kubota promotion: obscure outdated text embedded in the old flyer */
 .promo-featured-visual{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid #444;border-radius:8px;background:#090909}.promo-featured-visual>img{position:absolute;inset:0;width:100%;height:100%;max-height:none;object-fit:cover;opacity:.16;filter:grayscale(.3) blur(2px);border:0;border-radius:0}.promo-featured-price{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:35px 16px}.promo-original-price{color:#bbb;text-decoration:line-through;text-decoration-thickness:3px;font-size:clamp(26px,3vw,42px);font-weight:900}.promo-featured-price strong{font-size:clamp(64px,8vw,110px);color:var(--gold2);font-weight:1000;line-height:1.1}.promo-current-label{font-size:17px;font-weight:1000;letter-spacing:2px;color:#fff}@media(max-width:650px){.promo-featured-visual{min-height:280px}}
+
+
+/* Monthly auctions homepage feature */
+.auction-nav-link{color:#ff5757!important}
+.auction-hero{position:relative;isolation:isolate;overflow:hidden;background:#0b0b0d url('assets/big-star-hero.jpg') center 55%/cover no-repeat;border-bottom:4px solid #c71923;scroll-margin-top:105px}
+.auction-hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(4,5,8,.96),rgba(4,5,8,.84) 50%,rgba(4,5,8,.6)),linear-gradient(0deg,#08080a,transparent 65%)}
+.auction-hero-content{max-width:1250px;margin:auto;text-align:center;padding:65px 30px 58px}
+.auction-eyebrow{display:inline-block;color:#f6c4c4;letter-spacing:4px;font-weight:900;font-size:15px;margin-bottom:15px}
+.auction-hero h2{font-family:Impact,'Arial Black',Arial,sans-serif;letter-spacing:2px;line-height:1.04;margin:0;font-size:clamp(58px,9vw,125px);text-shadow:0 5px 20px #000}
+.auction-hero h2 span{color:white}.auction-hero h2 strong{color:#f12a34;display:inline-block}
+.auction-tagline{font-size:clamp(21px,2.7vw,34px);font-weight:1000;margin:22px auto 14px;letter-spacing:.4px}
+.auction-intro{max-width:880px;margin:0 auto 25px;color:#e2e2e2;font-size:19px;line-height:1.55}
+.auction-highlights{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:22px auto 27px}
+.auction-highlights span{background:rgba(185,19,29,.25);border:1px solid rgba(255,95,95,.55);padding:11px 17px;border-radius:5px;font-size:14px;font-weight:900}
+.auction-methods{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 auto 26px;max-width:1050px}
+.auction-methods>div{border:1px solid #555;background:rgba(0,0,0,.72);border-radius:7px;padding:19px 12px;display:flex;flex-direction:column;gap:9px}
+.auction-methods b{color:white;font-size:17px}.auction-methods small{color:#ddd;font-size:14px;line-height:1.45}
+.auction-main-cta{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:17px 28px;background:linear-gradient(#ed2835,#ad0815);border:1px solid #ff737b;border-radius:7px;box-shadow:0 6px 20px #0009;color:white;font-size:19px;font-weight:1000}
+.auction-main-cta:hover{background:#f22b38}.auction-main-cta span{font-size:30px;line-height:.6}
+.auction-footer-note{font-size:16px;font-weight:800;font-style:italic;color:#eee;margin:22px 0 0}
+@media(max-width:700px){.auction-hero{scroll-margin-top:90px}.auction-hero-content{padding:42px 16px}.auction-eyebrow{font-size:11px;letter-spacing:2px}.auction-hero h2{font-size:clamp(52px,12vw,80px)}.auction-hero h2 strong{display:block}.auction-intro{font-size:16px}.auction-highlights span{font-size:11px;padding:9px}.auction-methods{grid-template-columns:1fr;gap:9px}.auction-methods>div{padding:13px}.auction-main-cta{font-size:14px;padding:16px}.auction-footer-note{font-size:14px}}
