@@ -3,53 +3,76 @@
 const INVENTORY = [
   {
     "id": "stock-1",
-    "title": "2018 Bomag BMP9500 Roller — 500 Hours",
+    "title": "2018 BOMAG BMP8500 Heavy-Duty Trench Compactor — Approx. 500 Hours",
     "category": "Equipment & Supplies",
-    "type": "500 Hours",
+    "type": "Remote-Controlled Trench Compactor",
     "price": 9900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/nov2026-update/bomag-01.webp",
+    "images": [
+      "assets/images/inventory/nov2026-update/bomag-01.webp",
+      "assets/images/inventory/nov2026-update/bomag-02.webp",
+      "assets/images/inventory/nov2026-update/bomag-03.webp",
+      "assets/images/inventory/nov2026-update/bomag-04.webp",
+      "assets/images/inventory/nov2026-update/bomag-05.webp",
+      "assets/images/inventory/nov2026-update/bomag-06.webp",
+      "assets/images/inventory/nov2026-update/bomag-07.webp",
+      "assets/images/inventory/nov2026-update/bomag-08.webp"
+    ],
     "serial": "",
     "details": [
-      "Quantity available: 1",
-      "Model: BMP9500",
-      "Contact us for availability and fitment"
+      "2018 model year; approximately 500 operating hours",
+      "BOMAG BMP8500 model shown on machine decal; confirm model plate",
+      "Heavy-duty articulated padfoot trench compactor",
+      "Designed for soil compaction in trenches, utility work, foundations, and confined job sites",
+      "Remote-control operating station shown in photos",
+      "Used equipment with visible cosmetic wear and surface rust",
+      "Contact Big Star Machinery to confirm operating condition and arrange inspection"
     ]
   },
   {
     "id": "stock-2",
-    "title": "H13R Mini Excavator — Yellow",
+    "title": "H13R Yellow Mini Excavator — Compact Construction Machine",
     "category": "Mini Excavators",
-    "type": "Excavator YELLOW",
+    "type": "Compact Mini Excavator",
     "price": 3800,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/nov2026-update/h13r-01.jpg",
+    "images": [
+      "assets/images/inventory/nov2026-update/h13r-01.jpg"
+    ],
     "serial": "",
     "details": [
-      "Quantity available: 1",
       "Model: H13R",
-      "Contact us for availability and fitment"
+      "Yellow tracked mini excavator with overhead canopy",
+      "Compact design suited for trenching, landscaping, property improvements, and tight-access jobs",
+      "Hydraulic digging arm and bucket shown",
+      "Ask about engine specifications, operating condition, and available attachments",
+      "Contact Big Star Machinery to arrange inspection"
     ]
   },
   {
     "id": "stock-3",
-    "title": "Diesel Mini Excavator",
+    "title": "SDEE22 Diesel Mini Excavator — Heavy-Duty Compact Excavator",
     "category": "Mini Excavators",
-    "type": "Mini Excavator",
+    "type": "Diesel Mini Excavator",
     "price": 7900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/nov2026-update/diesel-excavator-01.jpg",
+    "images": [
+      "assets/images/inventory/nov2026-update/diesel-excavator-01.jpg"
+    ],
     "serial": "55206",
     "details": [
-      "Quantity available: 1",
       "Model: SDEE22",
-      "Contact us for availability and fitment"
+      "Diesel-powered compact excavator",
+      "Red finish, tracked undercarriage, overhead canopy, and digging bucket shown",
+      "Designed for trenching, digging, landscaping, site preparation, and property maintenance",
+      "Compact machine for smaller work areas",
+      "Contact Big Star Machinery to confirm engine details, condition, and availability"
     ]
   },
   {
@@ -76,19 +99,26 @@ const INVENTORY = [
   },
   {
     "id": "stock-5",
-    "title": "66\" Drum Mulcher",
+    "title": "66\" Heavy-Duty Hydraulic Drum Mulcher — Skid Steer Attachment",
     "category": "Full-Size Skid Steer Attachments",
-    "type": "DRUM MULCHER",
+    "type": "Hydraulic Drum Mulcher",
     "price": 3500,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "assets/images/inventory/nov2026-update/drum-mulcher-01.jpg",
+    "images": [
+      "assets/images/inventory/nov2026-update/drum-mulcher-01.jpg",
+      "assets/images/inventory/nov2026-update/drum-mulcher-02.webp",
+      "assets/images/inventory/nov2026-update/drum-mulcher-03.webp"
+    ],
     "serial": "",
     "details": [
-      "Quantity available: 1",
-      "Model: GIYI",
-      "Contact us for availability and fitment"
+      "66-inch width as provided; confirm exact measurement",
+      "Heavy-duty hydraulic drum mulcher attachment for compatible skid steers",
+      "Designed for brush clearing, vegetation control, and land-management applications",
+      "Hydraulic hoses, protective frame, and cutting drum shown in photos",
+      "Verify hydraulic flow requirements, mounting compatibility, and condition before purchase",
+      "Contact Big Star Machinery for availability and inspection"
     ]
   },
   {
