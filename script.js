@@ -27,15 +27,26 @@ function fallbackImage(img){img.onerror=null;img.src='assets/big-star-hero.jpg';
 function cardHTML(item){
   const rep=item.representativeImage===true||item.image?.startsWith('http')?'REPRESENTATIVE PHOTO':'';
   return `<article class="item-card">
-    <div class="image-wrap"><img loading="lazy" decoding="async" src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}${(item.images||[]).length>1?`<span class="photo-count">📷 ${(item.images||[]).length} PHOTOS</span>`:''}</div>
+    <div class="image-wrap" role="button" tabindex="0" data-open-item="${item.id}" aria-label="View details for ${item.title.replaceAll('"','&quot;')}" style="cursor:pointer"><img loading="lazy" decoding="async" src="${item.image||'assets/big-star-hero.jpg'}" alt="${item.title.replaceAll('"','&quot;')}" onerror="fallbackImage(this)">${rep?`<span class="image-label">${rep}</span>`:''}${(item.images||[]).length>1?`<span class="photo-count">📷 ${(item.images||[]).length} PHOTOS</span>`:''}</div>
     <div class="item-body">
       <div class="item-category">${item.category}</div>
-      <h3>${item.title}</h3>
+      <h3 role="button" tabindex="0" data-open-item="${item.id}" aria-label="View details for ${item.title.replaceAll('"','&quot;')}" style="cursor:pointer">${item.title}</h3>
       ${priceHTML(item)}
       <div class="card-actions"><button class="btn-outline" onclick="openItem('${item.id}')">VIEW DETAILS</button><a class="btn-gold" href="sms:8322136736?&body=${encodeURIComponent('Hi Big Star Machinery, I am interested in '+item.title+'.')}">TEXT US</a></div>
     </div>
   </article>`;
 }
+grid.addEventListener('click',event=>{
+  const target=event.target.closest('[data-open-item]');
+  if(target)openItem(target.dataset.openItem);
+});
+grid.addEventListener('keydown',event=>{
+  if(event.key!=='Enter'&&event.key!==' ')return;
+  const target=event.target.closest('[data-open-item]');
+  if(!target)return;
+  event.preventDefault();
+  openItem(target.dataset.openItem);
+});
 function matches(item){
   const q=searchInput.value.trim().toLowerCase();
   const hay=[item.title,item.category,item.type,item.serial,...(item.details||[])].filter(Boolean).join(' ').toLowerCase();
