@@ -431,19 +431,19 @@ const INVENTORY = [
     "price": 2100,
     "status": "Available",
     "quantity": 1,
-    "image": "inventory-assets/other-attachments/1000101887.jpg",
+    "image": "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
     "images": [
-      "inventory-assets/other-attachments/1000101887.jpg",
-      "inventory-assets/other-attachments/1000101889.jpg",
-      "inventory-assets/other-attachments/1000101890.jpg"
+      "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000095013.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000097724.jpg"
     ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: All-Star",
-      "Photos show a similar root grapple; verify exact width and model before purchase",
       "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
-      "Check attachment width, mounting plate and hydraulic couplers before purchase"
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Photos are representative; confirm the exact advertised grapple width before purchase"
     ],
     "representativeImage": true
   },
@@ -537,18 +537,18 @@ const INVENTORY = [
     "price": 2100,
     "status": "Available",
     "quantity": 1,
-    "image": "inventory-assets/other-attachments/1000101887.jpg",
+    "image": "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
     "images": [
-      "inventory-assets/other-attachments/1000101887.jpg",
-      "inventory-assets/other-attachments/1000101889.jpg",
-      "inventory-assets/other-attachments/1000101890.jpg"
+      "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000095013.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000097724.jpg"
     ],
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Photos show a similar root grapple; verify exact width and model before purchase",
       "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
-      "Check attachment width, mounting plate and hydraulic couplers before purchase"
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Photos are representative; confirm the exact advertised grapple width before purchase"
     ],
     "representativeImage": true
   },
@@ -769,21 +769,18 @@ const INVENTORY = [
     "price": 750,
     "status": "Available",
     "quantity": 1,
-    "image": "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
-    "images": [
-      "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
-      "inventory-assets/mini-skid-steer-grapple/1000095013.jpg",
-      "inventory-assets/mini-skid-steer-grapple/1000097724.jpg"
-    ],
+    "image": "assets/big-star-hero.jpg",
+    "images": [],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: ME13-11-48W",
-      "Hydraulic grapple attachment for compatible mini skid steers",
       "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
       "Check attachment width, mounting plate and hydraulic couplers before purchase",
-      "Contact Big Star Machinery to verify specifications and arrange an inspection"
-    ]
+      "Contact Big Star Machinery to verify specifications and arrange an inspection",
+      "Product-specific photos pending; contact us for current photos"
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-38",
@@ -1877,6 +1874,28 @@ const INVENTORY = [
       "Call or text for pricing and availability",
       "Hydraulic trenching attachment for irrigation, utility lines and landscaping work",
       "Verify trench depth, chain width, hydraulic requirements and coupler fitment for your machine"
+    ]
+  },
+  {
+    "id": "stock-root-bucket-photos",
+    "title": "Skid Steer Root Rake Bucket Attachment — Size to Confirm",
+    "category": "Full-Size Skid Steer Attachments",
+    "type": "Root Rake Bucket",
+    "price": null,
+    "status": "Available",
+    "quantity": 1,
+    "image": "inventory-assets/other-attachments/1000101887.jpg",
+    "images": [
+      "inventory-assets/other-attachments/1000101887.jpg",
+      "inventory-assets/other-attachments/1000101889.jpg",
+      "inventory-assets/other-attachments/1000101890.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "Root rake bucket attachment shown in the uploaded photos",
+      "Designed for handling loose brush, roots and site debris, subject to machine compatibility",
+      "Confirm exact working width, mounting plate and specifications before purchase",
+      "Call or text Big Star Machinery for price and availability"
     ]
   }
 ];
