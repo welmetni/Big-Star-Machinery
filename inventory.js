@@ -1717,5 +1717,39 @@ const INVENTORY = [
       "Model: LHR-PA200",
       "Contact us for availability and fitment"
     ]
+  },
+  {
+    "id": "stock-new-trencher-60",
+    "title": "60-inch Mini Skid Steer Trencher Attachment",
+    "category": "Mini Skid Steer Attachments",
+    "type": "Trencher",
+    "price": null,
+    "status": "Available",
+    "quantity": 1,
+    "image": "inventory-assets/mini-skid-steer-trencher/1000100480.jpg",
+    "images": [
+      "inventory-assets/mini-skid-steer-trencher/1000100480.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101893.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101894.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101895.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101896.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101897.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101898.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101899.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101900.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101903.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101904.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101905.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101906.jpg",
+      "inventory-assets/mini-skid-steer-trencher/1000101907.jpg"
+    ],
+    "serial": "",
+    "details": [
+      "60-inch trencher attachment in stock",
+      "Hydraulic-powered trenching attachment for compatible mini skid steers",
+      "Ideal for utility trenches, irrigation and landscaping",
+      "Confirm hydraulic flow, mounting compatibility and chain specifications before purchase",
+      "Call or text for pricing and availability"
+    ]
   }
 ];
