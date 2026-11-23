@@ -195,12 +195,19 @@ const INVENTORY = [
     "price": 5300,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/portable-restroom-with-shower/1000094106.jpg",
+    "images": [
+      "inventory-assets/portable-restroom-with-shower/1000094106.jpg",
+      "inventory-assets/portable-restroom-with-shower/1000094108.jpg",
+      "inventory-assets/portable-restroom-with-shower/1000094110.jpg",
+      "inventory-assets/portable-restroom-with-shower/1000094113.jpg",
+      "inventory-assets/portable-restroom-with-shower/1000100490.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Contact us for availability and fitment",
+      "Includes shower, toilet and sink"
     ]
   },
   {
@@ -211,13 +218,23 @@ const INVENTORY = [
     "price": 4500,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/portable-double-restroom/1000090307.jpg",
+    "images": [
+      "inventory-assets/portable-double-restroom/1000090307.jpg",
+      "inventory-assets/portable-double-restroom/1000090309.jpg",
+      "inventory-assets/portable-double-restroom/1000090310.jpg",
+      "inventory-assets/portable-double-restroom/1000090313.jpg",
+      "inventory-assets/portable-double-restroom/1000090314.jpg",
+      "inventory-assets/portable-double-restroom/1000090315.jpg",
+      "inventory-assets/portable-double-restroom/1000090318.jpg",
+      "inventory-assets/portable-double-restroom/1000100492.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: 80X50",
-      "Contact us for availability and fitment"
+      "Contact us for availability and fitment",
+      "Two separate restroom compartments with sinks"
     ]
   },
   {
@@ -302,17 +319,22 @@ const INVENTORY = [
     "price": 12900,
     "status": "Available",
     "quantity": 2,
-    "image": "assets/images/inventory/v1000/v1000-main.jpg",
+    "image": "inventory-assets/kubota-diesel-mini-skid-steer/1000096383.jpg",
     "images": [
-      "assets/images/inventory/v1000/v1000-main.jpg"
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096383.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096385.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096387.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096476.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096478.jpg"
     ],
     "serial": "",
     "details": [
       "Quantity available: 2",
       "Model: V1000",
-      "Contact us for availability and fitment"
-    ],
-    "representativeImage": true
+      "Kubota diesel-powered tracked mini skid steer",
+      "1-year engine warranty (confirm coverage terms)",
+      "Contact us for attachment compatibility and availability"
+    ]
   },
   {
     "id": "stock-17",
@@ -690,13 +712,18 @@ const INVENTORY = [
     "price": 750,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
+    "images": [
+      "inventory-assets/mini-skid-steer-grapple/1000095012.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000095013.jpg",
+      "inventory-assets/mini-skid-steer-grapple/1000097724.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: ME13-11-48W",
-      "Contact us for availability and fitment"
+      "Contact us for availability and fitment",
+      "Hydraulic grapple attachment for compatible mini skid steers"
     ]
   },
   {
@@ -828,13 +855,19 @@ const INVENTORY = [
     "price": 5800,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/raytree-50-inch-excavator-mulcher/1000094152.jpg",
+    "images": [
+      "inventory-assets/raytree-50-inch-excavator-mulcher/1000094152.jpg",
+      "inventory-assets/raytree-50-inch-excavator-mulcher/1000094153.jpg",
+      "inventory-assets/raytree-50-inch-excavator-mulcher/1000094159.jpg"
+    ],
     "serial": "edm20260603576",
     "details": [
       "Quantity available: 1",
       "Model: Raytree",
-      "Contact us for availability and fitment"
+      "Raytree 50-inch excavator drum mulcher",
+      "High-flow hydraulic attachment; verify machine compatibility before purchase",
+      "Contact us for fitment and availability"
     ]
   },
   {
@@ -1126,17 +1159,22 @@ const INVENTORY = [
     "price": 12900,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/images/inventory/v1000/v1000-main.jpg",
+    "image": "inventory-assets/kubota-diesel-mini-skid-steer/1000096383.jpg",
     "images": [
-      "assets/images/inventory/v1000/v1000-main.jpg"
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096383.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096385.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096387.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096476.jpg",
+      "inventory-assets/kubota-diesel-mini-skid-steer/1000096478.jpg"
     ],
     "serial": "F-1050K260744",
     "details": [
       "Quantity available: 1",
       "Model: SL-1050K",
-      "Contact us for availability and fitment"
-    ],
-    "representativeImage": true
+      "Kubota diesel-powered tracked mini skid steer",
+      "1-year engine warranty (confirm coverage terms)",
+      "Contact us for attachment compatibility and availability"
+    ]
   },
   {
     "id": "stock-61",
