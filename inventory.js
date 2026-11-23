@@ -28,7 +28,9 @@ const INVENTORY = [
       "Designed for soil compaction in trenches, utility work, foundations, and confined job sites",
       "Remote-control operating station shown in photos",
       "Used equipment with visible cosmetic wear and surface rust",
-      "Contact Big Star Machinery to confirm operating condition and arrange inspection"
+      "Contact Big Star Machinery to confirm operating condition and arrange inspection",
+      "Compaction equipment for soil preparation, trench work and construction applications",
+      "Confirm operating hours, compaction performance and mechanical condition"
     ]
   },
   {
@@ -50,7 +52,9 @@ const INVENTORY = [
       "Compact design suited for trenching, landscaping, property improvements, and tight-access jobs",
       "Hydraulic digging arm and bucket shown",
       "Ask about engine specifications, operating condition, and available attachments",
-      "Contact Big Star Machinery to arrange inspection"
+      "Contact Big Star Machinery to arrange inspection",
+      "Compact tracked excavator suited to trenching, digging, landscaping and access-restricted jobsites",
+      "Review engine operation, hydraulics, tracks and attachment fitment during inspection"
     ]
   },
   {
@@ -72,7 +76,9 @@ const INVENTORY = [
       "Red finish, tracked undercarriage, overhead canopy, and digging bucket shown",
       "Designed for trenching, digging, landscaping, site preparation, and property maintenance",
       "Compact machine for smaller work areas",
-      "Contact Big Star Machinery to confirm engine details, condition, and availability"
+      "Contact Big Star Machinery to confirm engine details, condition, and availability",
+      "Compact tracked excavator suited to trenching, digging, landscaping and access-restricted jobsites",
+      "Review engine operation, hydraulics, tracks and attachment fitment during inspection"
     ]
   },
   {
@@ -93,7 +99,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: MX-MRT14",
-      "Contact us for availability and fitment"
+      "Compact loader platform for landscaping, material handling and jobsite work",
+      "Confirm engine model, operating capacity, hydraulic flow and attachment interface before purchase"
     ],
     "representativeImage": true
   },
@@ -118,7 +125,9 @@ const INVENTORY = [
       "Designed for brush clearing, vegetation control, and land-management applications",
       "Hydraulic hoses, protective frame, and cutting drum shown in photos",
       "Verify hydraulic flow requirements, mounting compatibility, and condition before purchase",
-      "Contact Big Star Machinery for availability and inspection"
+      "Contact Big Star Machinery for availability and inspection",
+      "Vegetation management attachment for clearing and property maintenance",
+      "Confirm cutting width, hydraulic flow and machine compatibility before purchase"
     ]
   },
   {
@@ -135,7 +144,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: DB-15-84W",
-      "Contact us for availability and fitment"
+      "Blade attachment for grading, backfilling and surface preparation",
+      "Confirm blade width, controls and machine compatibility"
     ]
   },
   {
@@ -151,7 +161,9 @@ const INVENTORY = [
     "serial": "SSSCR7226052802H",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Ground preparation attachment for leveling, debris removal and landscape finishing",
+      "Check working width, hydraulic requirements and skid-steer compatibility",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -167,7 +179,9 @@ const INVENTORY = [
     "serial": "B-DZLHLPZ2605173",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Ground preparation attachment for leveling, debris removal and landscape finishing",
+      "Check working width, hydraulic requirements and skid-steer compatibility",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -184,7 +198,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 7",
       "Model: AGT",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ]
   },
   {
@@ -206,8 +221,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment",
-      "Includes shower, toilet and sink"
+      "Includes shower, toilet and sink",
+      "Portable sanitation unit suitable for worksites, events and temporary facilities",
+      "Confirm plumbing, water supply, waste connections and transportation requirements"
     ]
   },
   {
@@ -233,8 +249,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: 80X50",
-      "Contact us for availability and fitment",
-      "Two separate restroom compartments with sinks"
+      "Two separate restroom compartments with sinks",
+      "Portable sanitation unit suitable for worksites, events and temporary facilities",
+      "Confirm plumbing, water supply, waste connections and transportation requirements"
     ]
   },
   {
@@ -253,7 +270,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: EDM320",
-      "Contact us for availability and fitment"
+      "Excavator-mounted vegetation management attachment for brush clearing and land maintenance",
+      "Verify excavator weight class, hydraulic flow, pressure and mounting dimensions before purchase"
     ],
     "representativeImage": true
   },
@@ -271,7 +289,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CD25",
-      "Contact us for availability and fitment"
+      "Utility cart for moving landscaping and site materials",
+      "Confirm payload capacity, dimensions and operating condition"
     ]
   },
   {
@@ -287,7 +306,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Compact loader platform for landscaping, material handling and jobsite work",
+      "Confirm engine model, operating capacity, hydraulic flow and attachment interface before purchase"
     ]
   },
   {
@@ -307,7 +327,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SDA140T",
-      "Contact us for availability and fitment"
+      "Compact loader platform for landscaping, material handling and jobsite work",
+      "Confirm engine model, operating capacity, hydraulic flow and attachment interface before purchase"
     ],
     "representativeImage": true
   },
@@ -333,7 +354,9 @@ const INVENTORY = [
       "Model: V1000",
       "Kubota diesel-powered tracked mini skid steer",
       "1-year engine warranty (confirm coverage terms)",
-      "Contact us for attachment compatibility and availability"
+      "Contact us for attachment compatibility and availability",
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -355,7 +378,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: Future",
-      "Contact us for availability and fitment"
+      "Hydraulic trenching attachment for irrigation, utility lines and landscaping work",
+      "Verify trench depth, chain width, hydraulic requirements and coupler fitment for your machine"
     ],
     "representativeImage": true
   },
@@ -373,7 +397,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CIM72",
-      "Contact us for availability and fitment"
+      "Ground preparation attachment for leveling, debris removal and landscape finishing",
+      "Check working width, hydraulic requirements and skid-steer compatibility",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -392,7 +418,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: ADB-13-1218R",
-      "Contact us for availability and fitment"
+      "Hole-drilling attachment for fencing, posts and landscaping work",
+      "Confirm auger diameter, drive compatibility and hydraulic requirements"
     ],
     "representativeImage": true
   },
@@ -414,8 +441,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: All-Star",
-      "Contact us for availability and fitment",
-      "Photos show a similar root grapple; verify exact width and model before purchase"
+      "Photos show a similar root grapple; verify exact width and model before purchase",
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase"
     ],
     "representativeImage": true
   },
@@ -433,7 +461,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: TDB-11-78W",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for loading, moving or processing jobsite material, as applicable",
+      "Confirm attachment dimensions, coupler type and host-machine capacity"
     ]
   },
   {
@@ -450,7 +479,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: ML45",
-      "Contact us for availability and fitment"
+      "Vegetation management attachment for clearing and property maintenance",
+      "Confirm cutting width, hydraulic flow and machine compatibility before purchase"
     ]
   },
   {
@@ -471,7 +501,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: TE31",
-      "Contact us for availability and fitment"
+      "Specialized equipment-handling attachment; confirm intended application before purchase",
+      "Verify connection geometry, load limits and machine compatibility"
     ],
     "representativeImage": true
   },
@@ -493,7 +524,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: FW80",
-      "Contact us for availability and fitment"
+      "Specialized equipment-handling attachment; confirm intended application before purchase",
+      "Verify connection geometry, load limits and machine compatibility"
     ],
     "representativeImage": true
   },
@@ -514,8 +546,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment",
-      "Photos show a similar root grapple; verify exact width and model before purchase"
+      "Photos show a similar root grapple; verify exact width and model before purchase",
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase"
     ],
     "representativeImage": true
   },
@@ -533,7 +566,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: TDB-11-84W",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for loading, moving or processing jobsite material, as applicable",
+      "Confirm attachment dimensions, coupler type and host-machine capacity"
     ]
   },
   {
@@ -550,7 +584,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: TB520",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -567,7 +602,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: STL75",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -584,7 +620,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: REDM32",
-      "Contact us for availability and fitment"
+      "Excavator-mounted vegetation management attachment for brush clearing and land maintenance",
+      "Verify excavator weight class, hydraulic flow, pressure and mounting dimensions before purchase"
     ]
   },
   {
@@ -604,7 +641,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 3",
       "Model: 12EX-ATA",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ],
     "representativeImage": true
   },
@@ -621,7 +659,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 2",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -637,7 +676,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 7",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -653,7 +693,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -669,7 +710,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for loading, moving or processing jobsite material, as applicable",
+      "Confirm attachment dimensions, coupler type and host-machine capacity"
     ]
   },
   {
@@ -690,7 +732,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Vegetation management attachment for clearing and property maintenance",
+      "Confirm cutting width, hydraulic flow and machine compatibility before purchase"
     ],
     "representativeImage": true
   },
@@ -712,7 +755,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ],
     "representativeImage": true
   },
@@ -734,8 +779,10 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: ME13-11-48W",
-      "Contact us for availability and fitment",
-      "Hydraulic grapple attachment for compatible mini skid steers"
+      "Hydraulic grapple attachment for compatible mini skid steers",
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -758,7 +805,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CM-300V",
-      "Contact us for availability and fitment"
+      "Concrete mixing equipment for construction and site work",
+      "Inspect mixing drum, drive system and discharge mechanism",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ],
     "representativeImage": true
   },
@@ -781,7 +830,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SG-45",
-      "Contact us for availability and fitment"
+      "Stump removal attachment for landscaping and land-clearing applications",
+      "Confirm cutting wheel configuration, power requirements and mounting compatibility"
     ],
     "representativeImage": true
   },
@@ -798,7 +848,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 2",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ]
   },
   {
@@ -815,7 +866,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: MDM-50",
-      "Contact us for availability and fitment"
+      "Vegetation management attachment for clearing and property maintenance",
+      "Confirm cutting width, hydraulic flow and machine compatibility before purchase"
     ]
   },
   {
@@ -838,7 +890,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: LE4",
-      "Contact us for availability and fitment"
+      "Vegetation management attachment for clearing and property maintenance",
+      "Confirm cutting width, hydraulic flow and machine compatibility before purchase"
     ],
     "representativeImage": true
   },
@@ -856,7 +909,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: 680",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -879,7 +933,9 @@ const INVENTORY = [
       "Model: Raytree",
       "Raytree 50-inch excavator drum mulcher",
       "High-flow hydraulic attachment; verify machine compatibility before purchase",
-      "Contact us for fitment and availability"
+      "Contact us for fitment and availability",
+      "Excavator-mounted vegetation management attachment for brush clearing and land maintenance",
+      "Verify excavator weight class, hydraulic flow, pressure and mounting dimensions before purchase"
     ]
   },
   {
@@ -896,7 +952,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SJ 4732",
-      "Contact us for availability and fitment"
+      "Elevated work platform for maintenance, installation and warehouse applications",
+      "Verify platform capacity, lift height, battery condition and inspection requirements"
     ]
   },
   {
@@ -918,7 +975,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: Future",
-      "Contact us for availability and fitment"
+      "Hydraulic trenching attachment for irrigation, utility lines and landscaping work",
+      "Verify trench depth, chain width, hydraulic requirements and coupler fitment for your machine"
     ],
     "representativeImage": true
   },
@@ -936,7 +994,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: CK-MTB87",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -954,7 +1013,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ],
     "representativeImage": true
   },
@@ -975,7 +1036,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 5",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ],
     "representativeImage": true
   },
@@ -996,7 +1058,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ],
     "representativeImage": true
   },
@@ -1014,7 +1077,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: BR680",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -1033,7 +1097,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: SA-48",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ],
     "representativeImage": true
   },
@@ -1053,7 +1118,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: TL-12-72W",
-      "Contact us for availability and fitment"
+      "Soil preparation attachment for landscaping, planting and ground renovation",
+      "Verify tilling width, hydraulic requirements and mounting compatibility"
     ],
     "representativeImage": true
   },
@@ -1071,7 +1137,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: BK-56",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -1093,7 +1160,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: TB08",
-      "Contact us for availability and fitment"
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ],
     "representativeImage": true
   },
@@ -1110,7 +1179,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 3",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ]
   },
   {
@@ -1127,7 +1197,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 6",
       "Model: 5F-60",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for moving palletized or supported loads",
+      "Verify fork length, rated capacity and mounting compatibility; never exceed machine limits"
     ]
   },
   {
@@ -1144,7 +1215,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: 223 Toro",
-      "Contact us for availability and fitment"
+      "Grounds maintenance equipment for commercial or property landscaping",
+      "Confirm cutting width, engine condition and service history"
     ]
   },
   {
@@ -1160,7 +1232,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 37",
-      "Contact us for availability and fitment"
+      "Commercial or utility furnishing; contact us for dimensions and condition",
+      "Inspect included pieces, finish and suitability for your space"
     ]
   },
   {
@@ -1185,7 +1258,9 @@ const INVENTORY = [
       "Model: SL-1050K",
       "Kubota diesel-powered tracked mini skid steer",
       "1-year engine warranty (confirm coverage terms)",
-      "Contact us for attachment compatibility and availability"
+      "Contact us for attachment compatibility and availability",
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -1202,7 +1277,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: BC700XL",
-      "Contact us for availability and fitment"
+      "Towable wood-processing equipment for tree maintenance and brush disposal",
+      "Inspect cutting components, feed system and engine before operation",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1219,7 +1296,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: EL1250H",
-      "Contact us for availability and fitment"
+      "Portable jobsite power or lighting equipment for construction and outdoor work",
+      "Confirm rated output, operating condition and service requirements"
     ]
   },
   {
@@ -1239,7 +1317,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 5",
       "Model: G500",
-      "Contact us for availability and fitment"
+      "Fencing material for perimeter security, construction or property projects",
+      "Verify roll dimensions, wire gauge and installation hardware"
     ],
     "representativeImage": true
   },
@@ -1256,7 +1335,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 2",
-      "Contact us for availability and fitment"
+      "High-pressure cleaning equipment for equipment, concrete and outdoor surfaces",
+      "Confirm rated pressure, flow, pump condition and nozzle configuration"
     ]
   },
   {
@@ -1272,7 +1352,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 2",
-      "Contact us for availability and fitment"
+      "Commercial or utility furnishing; contact us for dimensions and condition",
+      "Inspect included pieces, finish and suitability for your space"
     ]
   },
   {
@@ -1288,7 +1369,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 2",
-      "Contact us for availability and fitment"
+      "Survey or layout tool for construction measurement applications",
+      "Confirm accessories, calibration status and operating condition"
     ]
   },
   {
@@ -1305,7 +1387,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: XT8000E",
-      "Contact us for availability and fitment"
+      "Portable jobsite power or lighting equipment for construction and outdoor work",
+      "Confirm rated output, operating condition and service requirements"
     ]
   },
   {
@@ -1322,7 +1405,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CK-JIC350",
-      "Contact us for availability and fitment"
+      "Inflatable recreational equipment; confirm dimensions and included accessories",
+      "Inspect fabric, seams, blower requirements and anchoring before use"
     ]
   },
   {
@@ -1338,7 +1422,8 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Traffic-management supplies for work zones and site operations",
+      "Confirm included quantities and applicable safety standards"
     ]
   },
   {
@@ -1355,7 +1440,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 3",
       "Model: LHR-MS0608",
-      "Contact us for availability and fitment"
+      "Outdoor storage structure for tools, equipment and general property use",
+      "Confirm overall dimensions, included components and assembly requirements"
     ]
   },
   {
@@ -1372,7 +1458,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: LHR-CDW600",
-      "Contact us for availability and fitment"
+      "Utility cart for moving landscaping and site materials",
+      "Confirm payload capacity, dimensions and operating condition"
     ]
   },
   {
@@ -1389,7 +1476,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SVL 75-2",
-      "Contact us for availability and fitment"
+      "Compact loader platform for landscaping, material handling and jobsite work",
+      "Confirm engine model, operating capacity, hydraulic flow and attachment interface before purchase"
     ]
   },
   {
@@ -1406,7 +1494,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 3",
       "Model: LHR-MS0810",
-      "Contact us for availability and fitment"
+      "Outdoor storage structure for tools, equipment and general property use",
+      "Confirm overall dimensions, included components and assembly requirements"
     ]
   },
   {
@@ -1422,7 +1511,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Steel shipping container suitable for storage and site organization",
+      "Inspect doors, flooring, seals and structural condition before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1439,7 +1530,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: AGR-MS2322",
-      "Contact us for availability and fitment"
+      "Outdoor storage structure for tools, equipment and general property use",
+      "Confirm overall dimensions, included components and assembly requirements"
     ]
   },
   {
@@ -1455,7 +1547,9 @@ const INVENTORY = [
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
+      "Steel shipping container suitable for storage and site organization",
+      "Inspect doors, flooring, seals and structural condition before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1472,7 +1566,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: ATS-ME18",
-      "Contact us for availability and fitment"
+      "Compact tracked excavator suited to trenching, digging, landscaping and access-restricted jobsites",
+      "Review engine operation, hydraulics, tracks and attachment fitment during inspection"
     ]
   },
   {
@@ -1489,7 +1584,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: ATS-RT15R",
-      "Contact us for availability and fitment"
+      "Compact tracked excavator suited to trenching, digging, landscaping and access-restricted jobsites",
+      "Review engine operation, hydraulics, tracks and attachment fitment during inspection"
     ]
   },
   {
@@ -1506,7 +1602,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: MAD-12-12D",
-      "Contact us for availability and fitment"
+      "Hole-drilling attachment for fencing, posts and landscaping work",
+      "Confirm auger diameter, drive compatibility and hydraulic requirements"
     ]
   },
   {
@@ -1523,7 +1620,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: LHR-WG1207",
-      "Contact us for availability and fitment"
+      "Covered growing structure for garden or agricultural applications",
+      "Confirm dimensions, frame components and covering materials"
     ]
   },
   {
@@ -1540,7 +1638,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 3",
       "Model: BS-12-2500G",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -1557,7 +1656,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: PR1-12-72W",
-      "Contact us for availability and fitment"
+      "Ground preparation attachment for leveling, debris removal and landscape finishing",
+      "Check working width, hydraulic requirements and skid-steer compatibility",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1574,7 +1675,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: PHA-16-2C",
-      "Contact us for availability and fitment"
+      "Equipment or attachment offered by Big Star Machinery in Hempstead, Texas",
+      "Contact us for exact specifications, compatibility and inspection details"
     ]
   },
   {
@@ -1591,7 +1693,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SWG-13-24D",
-      "Contact us for availability and fitment"
+      "Stump removal attachment for landscaping and land-clearing applications",
+      "Confirm cutting wheel configuration, power requirements and mounting compatibility"
     ]
   },
   {
@@ -1608,7 +1711,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CIB-11-66W",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for loading, moving or processing jobsite material, as applicable",
+      "Confirm attachment dimensions, coupler type and host-machine capacity"
     ]
   },
   {
@@ -1625,7 +1729,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: HPF-11-3000G",
-      "Contact us for availability and fitment"
+      "Material-handling attachment for loading, moving or processing jobsite material, as applicable",
+      "Confirm attachment dimensions, coupler type and host-machine capacity"
     ]
   },
   {
@@ -1642,7 +1747,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: CR72",
-      "Contact us for availability and fitment"
+      "Ground preparation attachment for leveling, debris removal and landscape finishing",
+      "Check working width, hydraulic requirements and skid-steer compatibility",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1659,7 +1766,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: LHR-SB2T3M",
-      "Contact us for availability and fitment"
+      "Lifting or pulling equipment for suitable rated applications",
+      "Verify rated capacity, mounting, cable or chain condition and safe-use requirements"
     ]
   },
   {
@@ -1676,7 +1784,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 2",
       "Model: LHR-GH2010",
-      "Contact us for availability and fitment"
+      "Covered growing structure for garden or agricultural applications",
+      "Confirm dimensions, frame components and covering materials"
     ]
   },
   {
@@ -1693,7 +1802,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: FW-13-1500G",
-      "Contact us for availability and fitment"
+      "Lifting or pulling equipment for suitable rated applications",
+      "Verify rated capacity, mounting, cable or chain condition and safe-use requirements"
     ]
   },
   {
@@ -1710,7 +1820,9 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: SGB-11-72W",
-      "Contact us for availability and fitment"
+      "Hydraulic gripping attachment for handling brush, debris, logs or bulky material, as applicable",
+      "Check attachment width, mounting plate and hydraulic couplers before purchase",
+      "Contact Big Star Machinery to verify specifications and arrange an inspection"
     ]
   },
   {
@@ -1727,7 +1839,8 @@ const INVENTORY = [
     "details": [
       "Quantity available: 1",
       "Model: LHR-PA200",
-      "Contact us for availability and fitment"
+      "Lifting or pulling equipment for suitable rated applications",
+      "Verify rated capacity, mounting, cable or chain condition and safe-use requirements"
     ]
   },
   {
@@ -1761,7 +1874,9 @@ const INVENTORY = [
       "Hydraulic-powered trenching attachment for compatible mini skid steers",
       "Ideal for utility trenches, irrigation and landscaping",
       "Confirm hydraulic flow, mounting compatibility and chain specifications before purchase",
-      "Call or text for pricing and availability"
+      "Call or text for pricing and availability",
+      "Hydraulic trenching attachment for irrigation, utility lines and landscaping work",
+      "Verify trench depth, chain width, hydraulic requirements and coupler fitment for your machine"
     ]
   }
 ];
