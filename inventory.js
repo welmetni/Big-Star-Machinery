@@ -404,14 +404,20 @@ const INVENTORY = [
     "price": 2100,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/other-attachments/1000101887.jpg",
+    "images": [
+      "inventory-assets/other-attachments/1000101887.jpg",
+      "inventory-assets/other-attachments/1000101889.jpg",
+      "inventory-assets/other-attachments/1000101890.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
       "Model: All-Star",
-      "Contact us for availability and fitment"
-    ]
+      "Contact us for availability and fitment",
+      "Photos show a similar root grapple; verify exact width and model before purchase"
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-21",
@@ -499,13 +505,19 @@ const INVENTORY = [
     "price": 2100,
     "status": "Available",
     "quantity": 1,
-    "image": "assets/big-star-hero.jpg",
-    "images": [],
+    "image": "inventory-assets/other-attachments/1000101887.jpg",
+    "images": [
+      "inventory-assets/other-attachments/1000101887.jpg",
+      "inventory-assets/other-attachments/1000101889.jpg",
+      "inventory-assets/other-attachments/1000101890.jpg"
+    ],
     "serial": "",
     "details": [
       "Quantity available: 1",
-      "Contact us for availability and fitment"
-    ]
+      "Contact us for availability and fitment",
+      "Photos show a similar root grapple; verify exact width and model before purchase"
+    ],
+    "representativeImage": true
   },
   {
     "id": "stock-26",
